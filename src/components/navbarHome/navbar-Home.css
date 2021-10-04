@@ -1,0 +1,11 @@
+.nav-Bar-Text {
+  font-weight: 600;
+  font-family: "DM Sans";
+}
+.text-Navbar {
+  font-family: "DM Sans";
+  letter-spacing: normal;
+}
+.text-Navbar:hover {
+  background-color: orange;
+}

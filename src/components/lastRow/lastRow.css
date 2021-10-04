@@ -1,0 +1,75 @@
+
+.main-div{
+    border: solid none;
+    font-family: "DM-serif";
+}
+.main-dvi>a{
+    
+    text-decoration: none;
+}
+.main-div>a>.visa-card{
+    width: 40px;
+    height: 25px;
+}
+.main-div>a>.credit-card{
+    width: 43px;
+    height: 29px;
+}
+
+.text-card>span{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+div>a{
+    text-decoration: none;
+}
+.lineText{
+    border: solid red;
+}
+.links{
+    border: solid green;
+}
+.lineText>span{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+/* LINE ONE */
+.line-one{
+    padding-top: 10px;
+}
+.line-one>.links>span{
+    padding-top:5px ;
+
+    margin-left: 5px;
+}
+.links>span>a{
+    text-decoration: none;
+    color: black;
+    
+}
+.links>span>a:hover{
+    color: rgb(255, 196, 0);
+    transition: all .4s;
+}
+/* LINE ONE */
+/* LINE TWO */
+/* .line-two.lineText>span{
+    margin-left: 8px;
+} */
+/* LINE TWO */
+
+.term-of-use{
+    text-align: right;
+    padding-right: 26%;
+}
+.term-of-use>a{
+    color: black;
+    
+}
+.term-of-use>a:hover{
+    color: rgb(255, 196, 0);
+    transition: all.4s;
+}

@@ -1,0 +1,69 @@
+.side_Col{
+    border-top: solid none;
+    background-color: #fff;
+}
+.sideBody{
+    border: solid none;
+    font-family: "DM serif";
+    
+    margin-left: 35px;
+    height: 100%;
+    
+}
+.price{
+    border: solid none;
+    
+}
+.price>h4{
+    font-weight: bold;
+    margin-top: 8%;
+    text-align: left;
+    cursor: pointer;
+    padding-left: 2%;
+}
+.check-Box{
+    border: solid none;
+    width: 50%;
+    padding-top: 3%;
+    color: rgba(128, 128, 128, 0.712);
+}
+
+.check-Box>div>input{
+    padding-bottom: 2%;
+    
+
+}
+.check-Box>div{
+    display: flex;
+    margin-left: 12%;
+    
+    width: 100%;
+}
+.check-Box>div>label{
+    padding-left: 3%;
+    cursor: pointer;
+    padding-bottom: 8%;
+    
+}
+.check-Box>label:hover{
+   color:  rgb(255, 196, 0);
+   transition: all .4s;
+}
+.compare-product{
+    border: solid none;
+    
+}
+.compare-product>h4{
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+    padding-left: 2%;
+    margin-top: 10%;
+}
+.compare-product>p{
+    text-align: left;
+    padding-left: 2%;
+    color:  rgba(128, 128, 128, 0.712);
+
+}
+

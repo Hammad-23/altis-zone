@@ -1,0 +1,62 @@
+.row {
+  /* border: solid red; */
+}
+
+.col {
+  border: solid none;
+}
+.card-text {
+  color: royalblue;
+  margin-right: 70px;
+  /* margin-top: 23px; */
+}
+.card-text:hover {
+  color: rgb(255, 196, 0);
+}
+.card-img-top {
+  /* width: 2rem; */
+  /* height: 16rem; */
+}
+.rate-text {
+  margin-right: 130px;
+}
+.marginDiv {
+  margin-top: 90px;
+}
+.shopping-option {
+
+  border: solid none;
+  /* padding-top:3%; */
+  border-bottom: 0.5px solid none;
+  font-family: "DM-serif";
+
+}
+.shopping-option>h2{
+  padding: 15px;
+  /* margin-right:60%; */
+  padding-bottom: 4%;
+  font-weight: bold;
+  text-transform: capitalize;
+    
+}
+
+
+/* Cards AND SIDEBAR */
+.main-row{
+    display: flex;
+    border: solid none;
+    background-color: #fff;
+    margin-bottom: 5%;
+    
+}
+
+/* Cards AND SIDEBAR */
+/* footer */
+.footer_row{
+    border:solid none;
+    padding-top: 30px;
+    border-top: solid 2px rgba(255, 187, 0, 0.959);
+    padding-bottom: 5%;
+
+}
+/* footer */

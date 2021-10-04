@@ -1,0 +1,71 @@
+.subscribe-Row {
+  background-image: url("../../asset/images/cover.jpg");
+  background-repeat: no-repeat;
+}
+.join-Heading {
+  font-family: "DM Sans";
+  font-size: 30px;
+  letter-spacing: normal;
+  font-weight: 550;
+}
+.search-In-Put {
+  width: 30%;
+  height: 50px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  padding-left: 15px;
+  outline: none;
+}
+.subscribe-Button {
+  height: 50px;
+  width: 12%;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 3px solid orange;
+  background-color: orange;
+  color: black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  font-family: "DM Sans";
+  font-weight: 700;
+}
+.subscribe-Button:hover{
+  color: white;
+}
+.privacy-Text {
+  font-size: 18px;
+  font-family: "DM Sans";
+  font-weight: 500;
+}
+@media screen and (max-width: 600px) {
+  .subscribe-Row {
+    margin-top: 32px;
+  }
+  .join-Heading {
+    font-size: 20px;
+    margin-top: 32px;
+  }
+  .search-In-Put {
+    width: 60%;
+    height: 40px;
+  }
+  .subscribe-Button {
+    width: 35%;
+    height: 40px;
+  }
+  .privacy-Text {
+    font-size: 14px;
+  }
+}
+.text-Bold{
+  color: black;
+}
+.text-Bold:hover{
+  color: orange;
+}

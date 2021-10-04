@@ -1,0 +1,10 @@
+.img-Lap-Top {
+  height: 41px;
+  width: 60px;
+}
+@media screen and (max-width: 600px) {
+  .img-Lap-Top {
+   height: 42px;
+   width: 60px;
+  }
+}

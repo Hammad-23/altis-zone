@@ -1,0 +1,42 @@
+.new-Arrivals-Row {
+  /* background-color: wheat; */
+  margin-bottom: 40px;
+}
+.new-Arrivals-Col {
+  margin-left: 140px;
+}
+.new-Arrivals-Div {
+  background-color: orange;
+  border-bottom-right-radius: 20px;
+  height: 60px;
+  width: 40%;
+  border: solid none;
+}
+.new-Arrivals-Text {
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.images {
+  margin-left: 80px;
+}
+.card-Div {
+  border: solid #ededed 1px;
+  margin-top: 10px;
+  height: 280px;
+  width: 180px;
+  box-shadow: whitesmoke 5px 5px 5px 5px;
+}
+@media screen and (max-width: 600px) {
+  .new-Arrivals-Row {
+    display: block;
+  }
+  .shoes-Two-Image {
+    width: 90%;
+  }
+  .images {
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,42 @@
+.all-Categories-Main-Div{
+    width: 80%;
+    margin-left: 35px;
+    height: 400px;
+    border: solid 2px #ededed;
+    box-shadow: whitesmoke 5px 5px 5px 5px;
+    background-color: black;
+}
+.all-Categories-Div{
+    height: 50px;
+    border: solid orange;
+    background-color: orange;
+    color: black;
+    font-family: "DM Sans";
+    font-size: 18px;
+    padding-top: 12px;
+    font-weight: 700;
+}
+.categories-Text{
+    text-decoration: none;
+    font-family: "DM Sans";
+    font-size: 18px;
+    color: white;
+}
+.categories-Text:hover{
+    color: orange;
+}
+.back-Hover{
+    /* background-color: white; */
+}
+.back-Hover:hover{
+    color: orange;
+    background-color: gainsboro;
+}
+@media screen and (max-width: 600px) {
+    .all-Categories-Main-Div{
+      height: 350px;
+      width: 90%;
+      margin-bottom: 32px;
+      margin-left: 20px;
+    }
+}
