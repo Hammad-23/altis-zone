@@ -14,7 +14,7 @@ import "./navbar-Home.css";
 export default function NavbarHome() {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar style={{height:"100px",backgroundColor: " rgb(63, 63, 63)"}} collapseOnSelect expand="lg"  variant="dark">
         <Container>
           <Navbar.Brand id="nav-Bar-Text" href="/">
             Smart Store
@@ -38,14 +38,14 @@ export default function NavbarHome() {
                 </NavDropdown.Item> */}
               {/* </NavDropdown> */}
             </Nav>
-            <Nav>
+            <Nav style={{width:"60%",display:"flex",justifyContent:"space-around",alignItems:"center"}}>
               <Nav.Link className="navBar-Home-Etc-Text" href="/">
                 Home
               </Nav.Link>
               <Nav.Link
                 className="navBar-Home-Etc-Text"
                 eventKey={2}
-                href="#memes"
+                href="/shop"
               >
                 Shop
               </Nav.Link>

@@ -41,8 +41,8 @@ export default function Home() {
       </Row>
 
       <Row>
-        <Col xs={2} sm={2} md={12} lg={12} xl={12}>
-          <div className="card-Main-Div">
+        <Col  xs={2} sm={2} md={12} lg={12} xl={12}>
+          <div className="card-container">
             <div className="cardDiv">
               <img
                 className="card-Image"

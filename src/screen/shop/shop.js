@@ -78,7 +78,7 @@ const Shop = () => {
   return (
     <>
       <Navbar/>
-      <Row style={{ paddingTop: "3%", backgroundColor: "#eee" }}></Row>
+      
 
       <Row className="main-row">
         <Row>
@@ -106,9 +106,9 @@ const Shop = () => {
         </Col>
       </Row>
 
-      <Row className="footer_row">
+      
         <Footer />
-      </Row>
+    
       {/* <LastRow /> */}
     </>
   );

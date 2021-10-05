@@ -6,6 +6,7 @@
   height: 500px;
   background-position-x: top;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .card-Div {
@@ -13,7 +14,7 @@
   width: 35%;
   height: 150px;
   background-color: wheat;
-  margin-left: 450px;
+  /* margin-left: 450px; */
   opacity: 0.5;
   margin-top: 10rem;
 }
@@ -45,11 +46,14 @@
   padding-top: 10px;
 }
 .yaer-Round-Line-Div {
-  width: 30%;
-  margin-left: 450px;
+  /* width: 30%; */
+  /* margin-left: 450px; */
 }
 .yaer-Round-Line-Col {
   border: solid none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .year-Round-Text {
   font-family: "cursive";
@@ -70,11 +74,13 @@
   margin-bottom: 30px;
 }
 
-.card-Main-Div {
+.card-container {
   display: flex;
   border: solid none;
-  width: 60%;
-  margin-left: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cardDiv {
   border: solid none;
@@ -117,23 +123,22 @@
     margin-left: 0;
     width: 271px;
     height: 105px;
-    margin-left: 17px;
+    /* margin-left: 17px; */
     margin-top: 2rem;
   }
   .shop-Now-Button{
     height: 42px;
     width: 184px;
   }
-  .card-Main-Div {
-    /* border: solid red;  */
-    margin-left: 0;
+  .card-container {
     display: block;
-    width: 100%;
+    width: 302px;
+    margin-left: 37px;
   }
   .cardDiv {
     width: 300px;
     height: 374px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
   .yaer-Round-Line-Div {
     margin-left: 0;
@@ -147,6 +152,6 @@
     letter-spacing: 8px;
   }
   .short-Line-Div {
-    margin-left: 87px;
+    /* margin-left: 87px; */
   }
 }
