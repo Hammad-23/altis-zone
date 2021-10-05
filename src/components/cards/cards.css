@@ -1,4 +1,4 @@
-.card-Main-Div {
+.card-main {
   /* border: solid #ededed 1px; */
   margin-top: 10px;
   /* display: flex; */
@@ -7,6 +7,8 @@
   /* height: 240px; */
   width: 290px;
   margin: auto;
+  
+  
 }
 
 .card-img>img{
@@ -20,15 +22,16 @@
   transition: all.4s;
 }
 .card-text{
-  /* border: solid; */
   text-align: left;
   padding-top: 3%;
+  width: 95%;
+  
 }
 .card-text>span{
   text-transform: uppercase;
   color: #535151; 
   padding: 1%;
-  padding-left: 8%;
+  padding-left: 7%;
   cursor: pointer;
 }
 .card-text>span:hover{
@@ -38,7 +41,7 @@
 .card-text>p{
   color: gray;
   padding: 1%;
-  padding-left: 10%;
+  padding-left: 8%;
   cursor: pointer;
 
 }

@@ -1,0 +1,85 @@
+.login-Card-Col {
+  margin-left: 500px;
+  margin-top: 45px;
+}
+.login-Card {
+  border: solid none;
+  width: 30%;
+  height: 450px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.loginText {
+  font-family: "cursive";
+  font-weight: bolder;
+}
+.new-To-This-Text {
+  font-family: "cursive";
+  font-size: 18px;
+}
+.signUp-Text {
+  text-decoration: none;
+  color: palevioletred;
+}
+.login-Email-Input {
+  height: 45px;
+  width: 70%;
+  padding-left: 5px;
+  color: grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: solid 1px black;
+}
+.for-Get-Password-Div {
+  border: solid none;
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.forget-Password-Text {
+  color: grey;
+}
+.log-In-Button {
+  height: 40px;
+  width: 70%;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #535151;
+  color: white;
+  margin-bottom: 10px;
+}
+.log-In-With-Face-Button {
+  height: 40px;
+  width: 70%;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: blue;
+  color: white;
+  margin-bottom: 10px;
+}
+.log-In-With-Google-Button {
+  height: 40px;
+  width: 70%;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: blue;
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .login-Card-Col {
+    margin-left: 0;
+  }
+  .login-Card {
+    border: solid none;
+    width: 100%;
+  }
+}

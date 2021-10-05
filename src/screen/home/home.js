@@ -1,168 +1,88 @@
 import React from "react";
 import "./home.css";
 import { Col, Row, Container } from "react-bootstrap";
-import Navbar from "../../components/navbar/navbar";
-import HotCategories from "../../components/hotCategories/hotCategories";
-import NewwArrivals from "../../components/newArrivals/newArrivals";
-import Ipad from "../../asset/images/ipad.png";
-import Stainless from "../../asset/images/stainless.png";
-import LubySlice from "../../asset/images/lubySlice.png";
-import PhoneOne from "../../asset/images/phoneOne.jpg";
-import Card from "../../components/cards/cards";
-import Led from "../../asset/images/led.jpg";
-import Electric from "../../asset/images/electric.png";
-import Watch from "../../asset/images/watch.png";
-import MiWasher from "../../asset/images/miWasher.png";
-import Senbeam from "../../asset/images/Senbeam.jpg";
-import Dining from "../../asset/images/Dining.jpg";
-import Xanna from "../../asset/images/Xanna.jpg";
-import Tempered from "../../asset/images/Tempered.jpg";
-import Electri from "../../asset/images/electri.jpg";
-import Aircolors from "../../asset/images/air colors.jpg";
-import Washing from "../../asset/images/washing.jpg";
-import Subscribe from "../../components/subscribe-container/subscribe-container";
-import SmartPhone from "../../components/Smartphone/Smartphone";
-import Cup from "../../asset/images/cup.jpg";
-import Hassle from "../../asset/images/hassle.jpg";
+import FirstNavbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
-import Slider from "../../components/slider/slider";
-
 export default function Home() {
-  const electricKitchenData = [
-    {
-      img: Led,
-      text: "Roku Smart LED TV",
-      price: "$328.88",
-    },
-    {
-      img: Xanna,
-      text: "Xanna Note 4GB RAM",
-      price: "&68.88",
-    },
-    {
-      img: Tempered,
-      text: "Tempered Glass Film",
-      price: "&388.66",
-    },
-    {
-      img: Ipad,
-      text: "Ipad Mini 4 7 9 wifi 4G",
-      price: "$569.99",
-    },
-    {
-      img: Dining,
-      text: "Kitchen Dining Table",
-      price: "&68.99",
-    },
-    {
-      img: Stainless,
-      text: "Stainless Steel FS3",
-      price: "$268.88",
-    },
-    {
-      img: Senbeam,
-      text: "Senbeam Classic 1200",
-      price: "&295.99",
-    },
-    {
-      img: LubySlice,
-      text: "Luby Slice Convection 9",
-      price: "$290.00",
-    },
-    {
-      img: Electric,
-      text: "Electric Kettlet 1.5L",
-      price: "$329.99",
-    },
-    {
-      img: PhoneOne,
-      text: "Bosch WAT286H0GB",
-      price: "$388.66",
-    },
-    {
-      img: Watch,
-      text: "Smart Watch Apllo 68GB",
-      price: "$268.88",
-    },
-    {
-      img: MiWasher,
-      text: "Mi Washer Dryer Gold",
-      price: "$321.99",
-    },
-  ];
   return (
     <>
-      <Navbar />
-      <Slider />
-      <HotCategories />
-      <NewwArrivals />
-      <Container>
-        {/* Electric Kitchens Row Open */}
-        <Row className="electric-Kitchens-Row">
-          <Col
-            className="hot-Categories-Col"
-            xs={12}
-            sm={12}
-            md={12}
-            lg={2}
-            xl={2}
-          >
-            <p className="hot-Categories-Text">Electric Kitchens</p>
-          </Col>
-          <Col className="option-Col" xs={12} sm={12} md={12} lg={6} xl={6}>
-            <a className="option-Text" href="#">
-              Kettlets
-            </a>
-            <a className="option-Text" href="#">
-              Microwave
-            </a>
-            <a className="option-Text" href="#">
-              Accessories
-            </a>
-            <a className="option-Text" href="#">
-              Fridges
-            </a>
-            <a className="option-Text" href="#">
-              Washing Machines
-            </a>
-          </Col>
-        </Row>
-        {/* Electric Kitchens Row Close */}
-        {/* Cards Row Open */}
-        <Row>
-          {electricKitchenData.map((item) => {
-            return (
-              <Col className="col" xs={6} sm={6} md={6} lg={2} xl={2}>
-                <Card name={item.text} imageUrl={item.img} price={item.price} />
-              </Col>
-            );
-          })}
-        </Row>
-        {/* Cards Row Close */}
-        {/* Adds Row Open */}
-        <Row>
-          <Col className="adds-Col" xs={12} sm={12} md={12} lg={12} xl={12}>
-            <img className="adds-Imges" src={Electri} />
-            <img className="adds-Imges" src={Aircolors} />
-            <img className="adds-Imges" src={Washing} />
-          </Col>
-        </Row>
-      </Container>
-      <SmartPhone />
-      {/* Adds Row Close */}
+      <FirstNavbar />
       <Row>
-        <Col className="adds-Col" xs={12} sm={12} md={12} lg={12} xl={12}>
-          <img className="adds-Imges-Two" src={Cup} />
-          <img className="adds-Imges-Two" src={Hassle} />
-          <img className="adds-Imges-Two" src={Washing} />
+        <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+          <div className="cover-Image">
+            <div className="card-Div">
+              <h1 className="fall-Winter-Text">FALL & WINTER</h1>
+              <button className="shop-Now-Button">Shop Now</button>
+            </div>
+          </div>
         </Col>
       </Row>
-      {/* Adds Row Close */}
-      {/* <SmartPhone /> */}
-      <Subscribe />
-      <Row>
-        <Footer />
+      <Row style={{ backgroundColor: "#d3d3d3", marginBottom: "30px" }}>
+        <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+          <p className="free-Shopping-Text">FREE SHIPPING WORLWIDE</p>
+        </Col>
       </Row>
+
+      <Row style={{ marginTop: "10px" }}>
+        <Col
+          className="yaer-Round-Line-Col"
+          xs={12}
+          sm={12}
+          md={12}
+          lg={12}
+          xl={12}
+        >
+          <div className="yaer-Round-Line-Div">
+            <h1 className="year-Round-Text">YEAR ROUND</h1>
+            <div className="short-Line-Div"></div>
+            <p className="must-Have-Item-Text">Must Have Items</p>
+          </div>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col  xs={2} sm={2} md={12} lg={12} xl={12}>
+          <div className="card-container">
+            <div className="cardDiv">
+              <img
+                className="card-Image"
+                src={
+                  (URL =
+                    "https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png")
+                }
+              />
+              <button className="midi-Pleated-Button">
+                MIDI PLEATED SKIRT
+              </button>
+            </div>
+            <div className="cardDiv">
+              <img
+                className="card-Image"
+                src={
+                  (URL =
+                    "https://static.wixstatic.com/media/cda177_b5a795ade21b41d38cadd836824e6768.jpg/v1/fill/w_299,h_410,al_c,q_80,usm_0.66_1.00_0.01/cda177_b5a795ade21b41d38cadd836824e6768.webp")
+                }
+              />
+              <button className="midi-Pleated-Button">
+                MIDI PLEATED SKIRT
+              </button>
+            </div>
+            <div className="cardDiv">
+              <img
+                className="card-Image"
+                src={
+                  (URL =
+                    "https://static.wixstatic.com/media/84770f_9a81715dcb4b43fa936d243fcd90e2a9.png/v1/fill/w_299,h_353,al_c,q_90,usm_0.66_1.00_0.01/84770f_9a81715dcb4b43fa936d243fcd90e2a9.webp")
+                }
+              />
+              <button className="midi-Pleated-Button">
+                MIDI PLEATED SKIRT
+              </button>
+            </div>
+          </div>
+        </Col>
+      </Row>
+      <Footer />
     </>
   );
 }

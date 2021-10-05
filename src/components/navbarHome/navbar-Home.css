@@ -1,11 +1,7 @@
-.nav-Bar-Text {
-  font-weight: 600;
-  font-family: "DM Sans";
+#nav-Bar-Text {
+  font-family: sans-serif;
+  letter-spacing: 5px;
 }
-.text-Navbar {
-  font-family: "DM Sans";
-  letter-spacing: normal;
-}
-.text-Navbar:hover {
-  background-color: orange;
+.navBar-Home-Etc-Text {
+ 
 }

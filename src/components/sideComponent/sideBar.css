@@ -27,7 +27,7 @@
 .categories-list{
     padding-bottom: 4%;
     border-bottom: 1px solid lightgray;
-    width: 45%;
+    width: 60%;
     margin-left: 8%;
     text-align: left;
 }
@@ -85,8 +85,6 @@
     .categories{
         margin-right:22% ;
     }
-    
-
     
     .filter-line{
         margin-left: 15%;

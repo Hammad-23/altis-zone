@@ -17,6 +17,7 @@ export const SideComponent = () => {
         <Row>
               <Col style={{border:'solid none'}} xl={12} lg={12} md={12} sm={12} xs={12}>
                 <div className='categories'><h1>Categories</h1></div>
+                <div style={{borderBottom:'1px solid lightgray', width:'55%', marginLeft:'17%'}}></div>
               </Col>
             </Row>
             <Row >

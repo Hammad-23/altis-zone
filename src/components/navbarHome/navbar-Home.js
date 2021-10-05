@@ -1,65 +1,74 @@
 import React, { useState } from "react";
-import { Navbar, Nav, Container, NavDropdown, Row, Col } from "react-bootstrap";
+import {
+  Navbar,
+  Nav,
+  Container,
+  NavDropdown,
+  Offcanvas,
+  Form,
+  FormControl,
+  Button,
+} from "react-bootstrap";
 import "./navbar-Home.css";
 
-// import { useHistory } from "react-router-dom";
-
 export default function NavbarHome() {
-  // var history = useHistory();
-  // const [show, setShow] = useState(true);
-
-  // const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
   return (
     <>
-      {/* <Button variant="primary" onClick={handleShow}>
-          Launch
-        </Button>
-        <Offcanvas show={show} onHide={handleClose}>
-          <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-          </Offcanvas.Header>
-          <Offcanvas.Body>
-            Some text as placeholder. In real life you can have the elements you
-            have chosen. Like, text, images, lists, etc.
-          </Offcanvas.Body>
-        </Offcanvas> */}
-
-      <Navbar bg="white" expand="lg">
-        <Container fluid>
-          {/* <Navbar.Brand href="#home" className="nav-Bar-Text">
-            Smart-e-store
-          </Navbar.Brand> */}
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar style={{height:"100px",backgroundColor: " rgb(63, 63, 63)"}} collapseOnSelect expand="lg"  variant="dark">
+        <Container>
+          <Navbar.Brand id="nav-Bar-Text" href="/">
+            Smart Store
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/" className="text-Navbar">
-                HOME
+              {/* <Nav.Link href="#features">Features</Nav.Link>
+              <Nav.Link href="#pricing">Pricing</Nav.Link> */}
+              {/* <NavDropdown  > */}
+              {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                  Another action
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  Something
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4">
+                  Separated link
+                </NavDropdown.Item> */}
+              {/* </NavDropdown> */}
+            </Nav>
+            <Nav style={{width:"60%",display:"flex",justifyContent:"space-around",alignItems:"center"}}>
+              <Nav.Link className="navBar-Home-Etc-Text" href="/">
+                Home
               </Nav.Link>
-              <Nav.Link href="/shop" className="text-Navbar">
-                SHOP
-              </Nav.Link>
-              <NavDropdown
-                className="text-Navbar"
-                title="PAGE"
-                id="basic-nav-dropdown"
+              <Nav.Link
+                className="navBar-Home-Etc-Text"
+                eventKey={2}
+                href="/shop"
               >
-                <NavDropdown.Item className="text-Navbar" href="#action/3.2">
-                  About Us
-                </NavDropdown.Item>
-                <NavDropdown.Item className="text-Navbar" href="#action/3.3">
-                  Spop by brand
-                </NavDropdown.Item>
-                {/* <NavDropdown.Divider /> */}
-                <NavDropdown.Item className="text-Navbar" href="#action/3.4">
-                  Faq
-                </NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link className="text-Navbar" href="#shop">
-                BLOG
+                Shop
               </Nav.Link>
-              <Nav.Link className="text-Navbar" href="#shop">
-                CONTACT
+              <Nav.Link
+                className="navBar-Home-Etc-Text"
+                eventKey={2}
+                href="#memes"
+              >
+                Sale
+              </Nav.Link>
+              <Nav.Link
+                className="navBar-Home-Etc-Text"
+                eventKey={2}
+                href="#memes"
+              >
+                Customer Sale
+              </Nav.Link>
+              <Nav.Link
+                className="navBar-Home-Etc-Text"
+                eventKey={2}
+                href="#memes"
+              >
+                Stockists
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

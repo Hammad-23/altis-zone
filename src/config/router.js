@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "../screen/home/home";
 import Shop from "../screen/shop/shop";
 import Products from "../screen/products/product";
+import Login from "../screen/login/login";
 
 export default function App() {
   return (
@@ -13,6 +14,9 @@ export default function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/login">
+            <Login/>
           </Route>
           <Route exact path="/shop">
             <Shop />
