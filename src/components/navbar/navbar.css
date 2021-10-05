@@ -1,53 +1,63 @@
-.nav-Bar-Row {
+.first-Navbar-Row {
+  background-color: #d3d3d3;
+}
+.first-Navbar-Col {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* height: 50px; */
-  box-shadow: 10px 10px 10px 10px;
 }
-.nav-Bar-Col {
+.search-Input-Div {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  border: solid none;
+  width: 30%;
+  height: 50px;
 }
-.smart-e-Story-Heading {
-  font-size: 28px;
-  font-family: "DM Sans";
-  color: orange;
-  /* margin-top: 25px; */
+.search-Input {
+  width: 60%;
+  height: 40px;
+  background: transparent;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ced3d3;
+  outline: none;
+  cursor: pointer;
 }
-.icon-Heart {
-  /* margin-top: 25px; */
+.search-Input:hover {
+  border-bottom: solid 1px white;
 }
-.icon-Shopping:hover {
-  color: orange;
-  /* margin-top: 25px; */
+.login-Icon-Div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 10%;
+  border: solid none;
 }
-.icon-Heart:hover {
-  color: orange;
+.login-Text {
+  font-size: 20px;
+  padding-top: 14px;
+  padding-left: 5px;
+  color: #535151;
+  font-family: "cursive";
 }
-.user-Icon {
-  background-color: orange;
-  border-radius: 10px;
-  /* margin-top: 25px; */
-}
-.user-Icon:hover {
-  color: white;
-}
+
 @media screen and (max-width: 600px) {
-  .nav-Bar-Row {
-    height: 150px;
+  .first-Navbar-Row {
+    height: 120px;
   }
-  .nav-Bar-Col {
+  .first-Navbar-Col {
     display: block;
   }
-  .smart-e-Story-Heading {
-    font-size: 30px;
+  .search-Input-Div {
+    border: solid none;
+    width: 98%;
   }
-  .icon-Heart {
-    margin-right: 80px;
-  }
-  .icon-Shopping {
-    margin-right: 80px;
+  .login-Icon-Div {
+    display: flex;
+    border: solid none;
+    width: 287px;
   }
 }

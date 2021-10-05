@@ -1,291 +1,106 @@
-.container{
-  border: solid none;
-}
-.foot-row{
-  border: solid none;
-}
-.foter_col {
-  border: solid none;
-  padding: 10px;
-  /* font-weight: bold; */
-  background-color: #fff;
-  font-family: "DM Sans";
-}
-/* BOX ONE */
-.box-one {
-  border: solid none;
-  text-transform: capitalize;
-  font-family: "DM Sans";
-  font-size: 18px;
-  margin-left: 9%;
-}
-.box-one > h1 {
-  text-align: left;
-  font-size: 40px;
-  font-weight: bold;
-  padding-bottom: 18px;
-}
-.text {
-  border: solid none;
-  text-align: left;
-  padding-bottom: 20px;
-}
-
-.address {
-  text-align: left;
-}
-.email {
-  padding-top: 21px;
-  text-align: left;
-}
-.email > a {
-  color: black;
-  text-decoration: none;
-}
-.email > a:hover {
-  color: orange;
-  transition: all 0.4s;
-}
-.phone {
-  padding-top: 21px;
-  text-align: left;
-}
-.hour {
-  padding-top: 21px;
-  text-align: left;
-}
-/* BOX ONE */
-/* BOX TWO */
-.box-two {
-  border: solid none;
-  margin-top: 25px;
-  text-align: left;
-  margin-left: 10px;
-  margin-left: 8%;
-  text-transform: capitalize;
-  font-family: "DM Sans";
-  font-size: 18px;
-}
-
-.box-two > p > a {
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-}
-.box-two > p > a:hover {
-  color: orange;
-  transition: all.4s;
-}
-
-/* BOX THREE */
-.box-three {
-  border: solid none;
-  margin-top: 25px;
-  text-align: left;
-  margin-left: 8%;
-  text-transform: capitalize;
-  font-family: "DM Sans";
-  font-size: 18px;
-}
-.box-three > p > a {
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-}
-.box-three > p > a:hover {
-  color: orange;
-  transition: all 0.4s;
-}
-/* BOX THREE */
-/* BOX FOUR */
-.box-four {
-  border: solid none;
-  margin-top: 25px;
-  text-align: left;
-  margin-left: 8%;
-  text-transform: capitalize;
-  font-family: "DM Sans";
-  font-size: 18px;
-}
-.box-four > p > a {
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-}
-.box-four > p > a:hover {
-  color: orange;
-  transition: all.4s;
-}
-
-/* BOX FOUR */
-/* BOX FIVE */
-/* .box-five{
-    border: solid none;
-    margin-top: 65px;
-    text-align: left;
-}
-.box-five>p>a{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-}
-.box-five>p>a:hover{
-    color:  rgb(255, 145, 0);
-} */
-
-/* BOX FIVE */
-/* BOX SIX */
-.box-six {
-  margin-top: 20%;
-  text-transform: capitalize;
-  font-family: "DM Sans";
-  font-size: 18px;
-  border: solid none;
-}
-
-.links-container {
-  border: solid none;
+.footer-Firt-Row {
   display: flex;
-  padding: 15px;
-  margin-left: 6%;
-  margin-top: 18%;
+  background-color: rgb(63, 63, 63);
+  height: 250px;
 }
-.box-six>.scan-code{
-  margin-right: 40%;
+.stay-Connected-Text {
+  font-size: 18px;
+  font-weight: 500;
+  color: grey;
+  font-family: "cursive";
+  letter-spacing: normal;
+  padding-top: 20px;
 }
-
-/*FACEBOOK  */
-.facebook {
-  /* border: solid 2px rgba(128, 128, 128, 0.712);
-    border-radius: 25px ;
-    height: 45px;
-    width: 45px; */
-}
-.facebook:hover {
-  /* border: solid orange; */
-  /* background-color: orange; */
-  /* transition: all .4s; */
-}
-/* .facebook>a{
-   
-} */
-.facebook > a > .fIcon {
-  border: solid 2px rgba(128, 128, 128, 0.712);
-  border-radius: 25px;
-  width: 45px;
-  height: 45px;
-  color: rgba(128, 128, 128, 0.712);
-  margin-right: 2px;
-  padding: 9px;
+.footer-Icons-Div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  border: solid none;
+  margin-left: 81px;
 }
 
-.facebook > a > .fIcon:hover {
-  /* background-color: orange; */
-  border: solid orange;
-  border-radius: 50px;
-  width: 45px;
-  height: 45px;
-  color: white;
-  transition: all 0.4s;
-  background-color: orange;
+.be-Our-Friend-Text {
+  font-family: "cursive";
+  font-size: 18px;
+  font-weight: 500;
+  color: grey;
+  font-family: "cursive";
+  letter-spacing: normal;
+  padding-top: 20px;
+}
+.footer-Email-Input {
+  font-family: "cursive";
+  width: 50%;
+  height: 30px;
+  padding-left: 15px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+.footer-Subcribe-Button:hover {
+  background-color: white;
+  transition: all.4s;
+}
+.footer-Subcribe-Button {
+  font-family: "cursive";
+  color: grey;
+  width: 50%;
+  height: 30px;
+  padding-left: 15px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+.footer-Smart-Factual-Text {
+  font-family: "cursive";
+  font-size: 15px;
+  color: grey;
+  padding-top: 40px;
+}
+.factual-Code-Text-Link {
+  text-decoration: none;
+  color: grey;
+  font-family: "cursive";
+}
+@media screen and (max-width: 600px) {
+  .footer-Firt-Row {
+    height: 500px;
+  }
+  .footer-Icons-Div {
+    border: solid none;
+    width: 64%;
+    margin-left: 59px;
+  }
+  .be-Our-Friend-Text {
+    margin-top: 32px;
+  }
+  .footer-Email-Input {
+    width: 78%;
+  }
+  .footer-Subcribe-Button {
+    width: 78%;
+  }
 }
 
-/* FACEBOOK */
-
-/* INSTAGRAM */
-/* .insta{
-    border:2px solid  rgba(128, 128, 128, 0.712);
-    border-radius: 25px ;
-    height: 45px;
-    width: 45px;
-    margin-left: 10px;
-
-
+.need-Assistance-Text {
+  font-family: "cursive";
+  font-size: 18px;
+  font-weight: 500;
+  color: grey;
+  font-family: "cursive";
+  letter-spacing: normal;
+  padding-top: 20px;
 }
-.insta:hover{
-    border: solid orange;
-    background-color: rgba(255, 187, 0, 0.959);
-    transition: all .4s;
-} */
-.insta > a > .instaIcon {
-  border: solid 2px rgba(128, 128, 128, 0.712);
-  border-radius: 25px;
-  width: 45px;
-  height: 45px;
-  color: rgba(128, 128, 128, 0.712);
-  /* margin-top: 9px; */
-  padding: 9px;
-  margin-left: 15px;
+.number-Text {
+  font-family: "cursive";
+  font-size: 18px;
+  font-weight: 500;
+  color: #ced3d3;
+  font-family: "cursive";
+  letter-spacing: normal;
 }
-.insta > a > .instaIcon:hover {
-  color: white;
-  border: solid rgba(255, 187, 0, 0.959);
-  background-color: rgba(255, 187, 0, 0.959);
-  transition: all 0.4s;
-}
-
-/* INSTAGRAM */
-
-/* TWITTER */
-/* .twitter{
-    border:2px solid  rgba(128, 128, 128, 0.712);
-    border-radius: 25px ;
-    height: 45px;
-    width: 45px;
-    margin-left: 10px;
-}
-.twitter:hover{
-    border: solid rgba(255, 187, 0, 0.959);
-    background-color: rgba(255, 187, 0, 0.959);
-    transition: all .4s;
-} */
-.twitter > a > .twitIcon {
-  border: 2px solid rgba(128, 128, 128, 0.712);
-  border-radius: 25px;
-  width: 45px;
-  height: 45px;
-  color: rgba(128, 128, 128, 0.712);
-  /* margin-top: 9px; */
-  padding: 10px;
-  margin-left: 15px;
-}
-.twitter > a > .twitIcon:hover {
-  color: white;
-  border: solid rgba(255, 187, 0, 0.959);
-  background-color: rgba(255, 187, 0, 0.959);
-  transition: all 0.4s;
-}
-
-/* TWITTER */
-
-/* DEIBBLE */
-/* .dribble{
-    border:2px solid  rgba(128, 128, 128, 0.712);
-    border-radius: 25px ;
-    height: 45px;
-    width: 45px;
-    margin-left: 10px;
-}
-.dribble:hover{
-    border: solid rgba(255, 187, 0, 0.959);
-    background-color: rgba(255, 187, 0, 0.959);
-    transition: all .4s;
-} */
-.dribble > a > .dribbleIcon {
-  border: 2px solid rgba(128, 128, 128, 0.712);
-  border-radius: 25px;
-  width: 45px;
-  height: 45px;
-  color: rgba(128, 128, 128, 0.712);
-  /* margin-top: 8px; */
-  padding: 9px;
-  margin-left: 15px;
-}
-.dribble > a > .dribbleIcon:hover {
-  color: white;
-  border: solid rgba(255, 187, 0, 0.959);
-  background-color: rgba(255, 187, 0, 0.959);
-  transition: all 0.4s;
-}
-/* DRIBBLR */
-/* BOX SIX */
