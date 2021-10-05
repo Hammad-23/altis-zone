@@ -3,33 +3,79 @@ import "../sideComponent/sideBar.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Navbar from "../navbar/navbar";
+import {AiOutlinePlus} from 'react-icons/ai'
 export const SideComponent = () => {
   return (
     <>
-      
-      <Col className="side_Col" xl={4} lg={4} md={4} sm={5} xm={4}>
-        <Row style={{border:"solid none"}}>
+    
+      <Col className="side_Col" xl={3} lg={4} md={4} sm={5} xm={4}>
+        <Row style={{border:"solid none", fontFamily:'sans-serif'}}>
           <Col xl={12} lg={12} md={12}sm={12} xs={12} style={{border:"solid none"}}>
-        <aside className="sideBody">
-          <div style={{borderBottom:"solid 1px lightgray", width:"85%"}}></div>
-          <div className="price"><h4>price</h4> </div>
-          <div className="check-Box">
-            <div><input  type="checkbox" className="form-check-input"/><label> $0.00 - $99.993 </label> </div>
-            <div><input  type="checkbox" className="form-check-input"/><label> $0.00 - $99.993 </label></div>
             
-           <div> <input  type="checkbox" className="form-check-input"/> <label> $0.00 - $99.993 </label></div>
-          <div>  <input  type="checkbox" className="form-check-input"/><label> $0.00 - $99.993 </label></div>
+        <aside className="sideBody">
+        <Row>
+              <Col style={{border:'solid none'}} xl={12} lg={12} md={12} sm={12} xs={12}>
+                <div className='categories'><h1>Categories</h1></div>
+              </Col>
+            </Row>
+            <Row >
+              <Col >
+              <div className='categories-text' >
+              
+                <ul>
+                <div className='categories-list' >
+                  <li>smart phone</li>
+                  </div>
+                  <div  className='categories-list' >
+                  <li>head Phones</li>
+                  </div>
+                  <div className='categories-list' >
+                  <li>camera</li>
+                  </div>
+                  <div  className='categories-list' >
+                  <li>photos</li>
+                  </div>
+                  <div className='categories-list' >
+                  <li>smart phone</li>
+                  </div>
+                  <div  className='categories-list' >
+                  <li>head Phones</li>
+                  </div>
+                  <div className='categories-list'>
+                  <li>camera</li>
+                  </div>
+                  <div  className='categories-list'>
+                  <li>photos</li>
+                  </div>
+                </ul>
+                
+                </div>  
+            </Col>
+              </Row>
+          <div className='filter'><h1>filter</h1></div>
+          <div className='filter-line'></div>
+          <div className='price'>
+          <Row style={{fontFamily:'sans-serif'}}>
+         <Col> <p style={{ color:'gray'}}>Price</p></Col>
+        <Col> <AiOutlinePlus className='plus-icon' /></Col>
+         </Row>
+         </div>
+         <div className='filter-line'></div>
+         <div className='color'>
+          <Row>
+         <Col> <p style={{ color:'gray'}}>color</p></Col>
+        <Col> <AiOutlinePlus className='plus-icon' /></Col>
+         </Row>
+         </div>
+         <div className='filter-line'></div>
 
-            </div>
-          <div style={{borderBottom:"solid 1px lightgray", marginTop:"1%", width:"85%", marginLeft:"%"}}></div>
-          <div className="compare-product">
-            <h4>Compare Products</h4>
-            <p>You have no items to compare.</p>
-          </div>
-          <div className="compare-product">
-            <h4>My Wish List</h4>
-            <p>You have no items in your wish list.</p>
-          </div>
+         <div className='size'>
+          <Row>
+         <Col> <p style={{color:'gray'}}>size</p></Col>
+        <Col> <AiOutlinePlus className='plus-icon' /></Col>
+         </Row>
+         </div>
            </aside>
            </Col>
            </Row>

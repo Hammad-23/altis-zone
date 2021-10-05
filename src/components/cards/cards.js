@@ -8,7 +8,7 @@ export default function Cards(props) {
   return (
     <>
       <Col
-        xl={12}
+        xl={9}
         lg={12}
         md={12}
         sm={12}
@@ -16,11 +16,15 @@ export default function Cards(props) {
         style={{ border: "solid none" }}
       >
         <div {...props} className="card-Main-Div">
-          <img className="card-Imag" src={props.imageUrl} />
-          <span className="name-Text">{props.name}</span>
-          {/* <ReactingStare/> */}
-          <p className="price-Text">{props.price}</p>
-        </div>
+        <div className='card-img'>
+          <img src={props.imageUrl}/>
+          </div>
+        <div className='card-text'>
+        <span>{props.name}</span>
+       <p>{props.price}</p>
+      </div>
+      </div>
+
       </Col>
     </>
   );

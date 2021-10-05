@@ -1,47 +1,51 @@
 .card-Main-Div {
-  border: solid #ededed 1px;
+  /* border: solid #ededed 1px; */
   margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  /* display: flex; */
+  /* flex-direction: column; */
   align-items: center;
-  height: 280px;
-  width: 180px;
-  box-shadow: whitesmoke 5px 5px 5px 5px;
+  /* height: 240px; */
+  width: 290px;
+  margin: auto;
 }
-.card-Main-Div:hover {
-  box-shadow: whitesmoke 10px 10px 10px 10px;
-}
-.card-Imag {
-  height: 150px;
-  width: 150px;
+
+.card-img>img{
+  height: 230px;
+  width: 250px;
   cursor: pointer;
 }
-.card-Imag:hover {
-  height: 180px;
-  width: 180px;
+.card-img>img:hover {
+  height: 250px;
+  width: 270px;
   transition: all.4s;
 }
-span,
-p {
-  font-family: "DM Sans";
+.card-text{
+  /* border: solid; */
+  text-align: left;
+  padding-top: 3%;
+}
+.card-text>span{
+  text-transform: uppercase;
+  color: #535151; 
+  padding: 1%;
+  padding-left: 8%;
   cursor: pointer;
 }
-.name-Text {
-  margin-top: 10px;
+.card-text>span:hover{
+  color: royalblue;
+  transition: all.4s;
+}
+.card-text>p{
+  color: gray;
+  padding: 1%;
+  padding-left: 10%;
   cursor: pointer;
+
 }
-.name-Text:hover {
-  color: blue;
-  transition: all.4s;
-}
-.price-Text:hover {
-  color: orange;
-  transition: all.4s;
-}
-@media screen and (max-width: 600px) {
+
+/* @media screen and (max-width: 600px) {
   .card-Main-Div {
     height: 300px;
     width: 150px;
   }
-}
+} */
