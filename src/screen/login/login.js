@@ -6,7 +6,7 @@ import { FcGoogle } from "react-icons/fc";
 
 export default function Login() {
   return (
-    <>
+    
       <Row>
         <Col className="login-Card-Col" xs={12} sm={12} md={12} lg={12} xl={12}>
           <div className="login-Card">
@@ -52,6 +52,6 @@ export default function Login() {
           </div>
         </Col>
       </Row>
-    </>
+  
   );
 }

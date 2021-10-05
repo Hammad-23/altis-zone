@@ -4,66 +4,95 @@
 }
 .sideBody{
     border: solid none;
-    font-family: "DM serif";
-    
+    font-family:sans-serif;
     margin-left: 35px;
     height: 100%;
     
 }
+.categories{
+    font-size: 35px;
+    margin-right:9% ;
+    padding-bottom: 3%;
+}
+.categories-text{
+    border: solid none;
+}
+.categories-text>ul{
+    list-style: none;
+    color: gray;
+    text-transform: capitalize;
+    padding-top: 2%;
+    font-size: 18px;
+}
+.categories-list{
+    padding-bottom: 4%;
+    border-bottom: 1px solid lightgray;
+    width: 45%;
+    margin-left: 8%;
+    text-align: left;
+}
+.categories-list>li{
+    padding-top: 6%;
+}
+.categories-list:hover{
+    color: #535151;
+    transition: all.4s;
+    cursor: pointer;
+}
+.filter{
+    padding-top: 10%;
+    /* border: solid; */
+    padding-right: 40%;
+}
+.filter>h1{
+    text-transform: capitalize;
+    padding-bottom: 2%;
+    font-size: 35px;
+}
+.filter-line{
+    border-bottom:solid lightgray 1px;
+    width: 55%;
+    margin-left: 15%;
+}
 .price{
     border: solid none;
-    
+    font-size: 20px;
+    padding-top: 5%;
+    text-transform: capitalize;
+    padding-bottom: 3%;
 }
-.price>h4{
-    font-weight: bold;
-    margin-top: 8%;
-    text-align: left;
-    cursor: pointer;
-    padding-left: 2%;
-}
-.check-Box{
+.color{
     border: solid none;
-    width: 50%;
-    padding-top: 3%;
-    color: rgba(128, 128, 128, 0.712);
-}
-
-.check-Box>div>input{
-    padding-bottom: 2%;
-    
+    font-size: 20px;
+    padding-top: 5%;
+    text-transform: capitalize;
+    padding-bottom: 3%;
 
 }
-.check-Box>div{
-    display: flex;
-    margin-left: 12%;
-    
-    width: 100%;
-}
-.check-Box>div>label{
-    padding-left: 3%;
-    cursor: pointer;
-    padding-bottom: 8%;
-    
-}
-.check-Box>label:hover{
-   color:  rgb(255, 196, 0);
-   transition: all .4s;
-}
-.compare-product{
+.size{
     border: solid none;
-    
+    font-size: 20px;
+    padding-top: 5%;
+    text-transform: capitalize;
+    padding-bottom: 3%;
 }
-.compare-product>h4{
-    font-weight: bold;
-    text-align: left;
+
+.plus-icon{
     cursor: pointer;
-    padding-left: 2%;
-    margin-top: 10%;
+    margin-right: 35%;
 }
-.compare-product>p{
-    text-align: left;
-    padding-left: 2%;
-    color:  rgba(128, 128, 128, 0.712);
+@media screen and (max-width:600px){
+    .categories{
+        margin-right:22% ;
+    }
+    
+
+    
+    .filter-line{
+        margin-left: 15%;
+    }
+    
+
 
 }
 
