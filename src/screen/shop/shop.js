@@ -22,6 +22,8 @@ import Aircolors from "../../asset/images/air colors.jpg";
 
 const Shop = () => {
   const cardData = [
+    
+
     {
       image: 'https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png',
       text: "smart watch apllo 68GB",
@@ -74,6 +76,7 @@ const Shop = () => {
     }
 
 
+
   ];
   return (
     <>
@@ -87,6 +90,7 @@ const Shop = () => {
               <h2>shop</h2>
             </div>
           </Col>
+      
         </Row>
         <SideBar />
         <Col>
@@ -105,6 +109,7 @@ const Shop = () => {
           </Row>
         </Col>
       </Row>
+    
 
       
         <Footer />

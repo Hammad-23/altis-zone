@@ -7,6 +7,7 @@ import ReactingStare from "../ratingstars/ratingstars";
 export default function Cards(props) {
   return (
     <>
+      
       <Col
         xl={9}
         lg={12}
@@ -26,6 +27,7 @@ export default function Cards(props) {
       </div>
 
       </Col>
+
     </>
   );
 }

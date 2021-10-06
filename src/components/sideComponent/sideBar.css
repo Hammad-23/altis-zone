@@ -10,9 +10,12 @@
     
 }
 .categories{
-    font-size: 35px;
-    margin-right:9% ;
+    margin-right:17% ;
     padding-bottom: 3%;
+}
+.categories>h1{
+    font-size: 35px;
+
 }
 .categories-text{
     border: solid none;
@@ -42,7 +45,7 @@
 .filter{
     padding-top: 10%;
     /* border: solid; */
-    padding-right: 40%;
+    padding-right: 45%;
 }
 .filter>h1{
     text-transform: capitalize;
@@ -83,7 +86,7 @@
 }
 @media screen and (max-width:600px){
     .categories{
-        margin-right:22% ;
+        margin-right:23% ;
     }
     
     .filter-line{
