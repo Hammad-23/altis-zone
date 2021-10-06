@@ -1,0 +1,75 @@
+h1,
+p,
+a,
+button,
+input {
+  font-family: sans-serif;
+}
+.sign-Up-Card-Div {
+  height: 400px;
+  width: 40%;
+}
+.already-A-Mamber-Text {
+  font-size: 12px;
+}
+.account-Login-Text {
+  text-decoration: none;
+  color: #535151;
+}
+.account-Login-Text:hover {
+  color: black;
+  transition: all 4s;
+}
+.sign-Up-Email-Input {
+  height: 45px;
+  width: 50%;
+  padding-left: 5px;
+  color: grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: solid 1px black;
+}
+.sign-Up-Email-Div {
+  margin-bottom: 25px;
+}
+.sign-Up-Password-Input {
+  height: 45px;
+  width: 50%;
+  padding-left: 5px;
+  color: grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: solid 1px black;
+}
+.sign-Up-Password-Div {
+  margin-bottom: 25px;
+}
+.sign-Up-Button {
+  height: 45px;
+  width: 50%;
+  background-color: #535151;
+  color: white;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+@media screen and (max-width: 600px) {
+  .sign-Up-Card-Div {
+    width: 100%;
+  }
+  .sign-Up-Email-Input {
+    width: 80%;
+  }
+  .sign-Up-Password-Input {
+    width: 80%;
+  }
+  .sign-Up-Button {
+    width: 80%;
+  }
+}

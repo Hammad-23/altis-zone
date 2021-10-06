@@ -14,7 +14,6 @@
   width: 35%;
   height: 150px;
   background-color: wheat;
-  /* margin-left: 450px; */
   opacity: 0.5;
   margin-top: 10rem;
 }
@@ -44,10 +43,6 @@
   letter-spacing: 5px;
   color: grey;
   padding-top: 10px;
-}
-.yaer-Round-Line-Div {
-  /* width: 30%; */
-  /* margin-left: 450px; */
 }
 .yaer-Round-Line-Col {
   border: solid none;
@@ -97,12 +92,11 @@
   width: 98%;
   transition: all.4s;
 }
-
-.midi-Pleated-Button:hover {
-  height: 50px;
-  width: 95%;
+/* .midi-Pleated-Button:hover {
+  height: 40px;
+  width: 98%;
   transition: all.4s;
-}
+} */
 .midi-Pleated-Button {
   height: 45px;
   width: 98%;
@@ -113,32 +107,29 @@
   background-color: #303132;
   color: white;
 }
-
 @media screen and (max-width: 600px) {
-  .cover-Image{
+  .cover-Image {
     height: 250px;
   }
-  .card-Div{
+  .card-Div {
     border: solid none;
     margin-left: 0;
     width: 271px;
     height: 105px;
-    /* margin-left: 17px; */
     margin-top: 2rem;
   }
-  .shop-Now-Button{
+  .shop-Now-Button {
     height: 42px;
     width: 184px;
   }
   .card-container {
     display: block;
     width: 302px;
-    margin-left: 37px;
+    margin-left: 10px;
   }
   .cardDiv {
     width: 300px;
     height: 374px;
-    /* margin-left: 10px; */
   }
   .yaer-Round-Line-Div {
     margin-left: 0;
@@ -150,8 +141,5 @@
   }
   .year-Round-Text {
     letter-spacing: 8px;
-  }
-  .short-Line-Div {
-    /* margin-left: 87px; */
   }
 }
