@@ -16,6 +16,7 @@ export default function NavbarHome() {
     <>
       <Navbar
         style={{ backgroundColor: " rgb(63, 63, 63)" }}
+        px
         collapseOnSelect
         expand="lg"
         variant="dark"
