@@ -16,7 +16,7 @@ export const SideComponent = () => {
         <aside className="sideBody">
         <Row>
               <Col style={{border:'solid none'}} xl={12} lg={12} md={12} sm={12} xs={12}>
-                <div className='categories'><h1>Categories</h1></div>
+                <div className='categories-heading'><h1>Categories</h1></div>
                 <div style={{borderBottom:'1px solid lightgray', width:'55%', marginLeft:'17%'}}></div>
               </Col>
             </Row>
@@ -56,7 +56,7 @@ export const SideComponent = () => {
               </Row>
           <div className='filter'><h1>filter</h1></div>
           <div className='filter-line'></div>
-          <div className='price'>
+          <div className='prize'>
           <Row style={{fontFamily:'sans-serif'}}>
          <Col> <p style={{ color:'gray'}}>Price</p></Col>
         <Col> <AiOutlinePlus className='plus-icon' /></Col>

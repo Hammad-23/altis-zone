@@ -69,11 +69,7 @@ const Shop = () => {
       text: "smart watch apllo 68GB",
       prize: "$369.99",
     },
-    {
-      image: 'https://static.wixstatic.com/media/cda177_b5a795ade21b41d38cadd836824e6768.jpg/v1/fill/w_299,h_410,al_c,q_80,usm_0.66_1.00_0.01/cda177_b5a795ade21b41d38cadd836824e6768.webp',
-      text: "Stainless Steel FS3",
-      prize: "$268.88",
-    }
+    
 
 
 

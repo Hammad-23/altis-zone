@@ -3,9 +3,18 @@ import "./home.css";
 import { Col, Row, Container } from "react-bootstrap";
 import FirstNavbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
+import { useHistory } from "react-router-dom";
+
+
 export default function Home() {
+  // var history = useHistory();
+
+  // const product = () => {
+  //   history.push("/productdetail");
+  // };
   return (
     <>
+      {/* /productdetail */}
       <FirstNavbar />
       <Row>
         <Col xs={12} sm={12} md={12} lg={12} xl={12}>
@@ -41,7 +50,7 @@ export default function Home() {
       </Row>
 
       <Row>
-        <Col  xs={2} sm={2} md={12} lg={12} xl={12}>
+        <Col xs={2} sm={2} md={12} lg={12} xl={12}>
           <div className="card-container">
             <div className="cardDiv">
               <img
@@ -51,7 +60,10 @@ export default function Home() {
                     "https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png")
                 }
               />
-              <button className="midi-Pleated-Button">
+              <button
+                // onClick={product}
+                className="midi-Pleated-Button"
+              >
                 MIDI PLEATED SKIRT
               </button>
             </div>

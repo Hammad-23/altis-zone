@@ -9,11 +9,11 @@
     height: 100%;
     
 }
-.categories{
-    margin-right:17% ;
+.categories-heading{
+    margin-right:22% ;
     padding-bottom: 3%;
 }
-.categories>h1{
+.categories-heading>h1{
     font-size: 35px;
 
 }
@@ -57,7 +57,7 @@
     width: 55%;
     margin-left: 15%;
 }
-.price{
+.prize{
     border: solid none;
     font-size: 20px;
     padding-top: 5%;

@@ -1,0 +1,36 @@
+.stock{
+    padding-top: 25%;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    color:gray ;
+    cursor: pointer;
+}
+.stock>span{
+    color: #303132;
+    font-size: 28px;
+}
+.stock>p{
+    padding-top: 10%;
+     padding-bottom: 5%;
+}
+.The-Blues{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10%;
+    padding-right: 10%; 
+}
+.The-Blues>p{
+    font-weight: bold;
+    color: #303132;
+
+}
+.Eva{
+    margin: auto;
+    padding-bottom: 10%;
+    text-align: center;
+}
+.Eva>p{
+    font-weight: bold;
+    color: #303132;
+}

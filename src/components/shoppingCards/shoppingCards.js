@@ -4,10 +4,10 @@ import Navbar from '../navbar/navbar'
 import { Col, Row, Container } from "react-bootstrap";
 import Button from '@mui/material/Button';
 import Watch from "../../asset/images/watch.png";
-import {FaShoppingBag} from 'react-icons/fa'
-import {AiOutlineMinus}from 'react-icons/ai'
-import {AiOutlinePlus} from 'react-icons/ai'
-import {IoCloseOutline} from 'react-icons/io5'
+import {FaShoppingBag} from 'react-icons/fa';
+import {AiOutlineMinus}from 'react-icons/ai';
+import {AiOutlinePlus} from 'react-icons/ai';
+import {IoCloseOutline} from 'react-icons/io5';
 import Footer from '../footer/footer';
 
 
@@ -125,7 +125,7 @@ const ShoppingCards = () => {
                           <Col xl={2} lg={4} md={4} sm={5} xs={5} style={{border:'solid none'}}>
                               <div className='counter'>
                                <div className='counter-minus'>  <AiOutlineMinus /></div>
-                               <div className='counter-number'><span>123</span></div>
+                               <div className='counter-number'><span>1</span></div>
                                 <div className='counter-plus'>  <AiOutlinePlus/></div>
                               </div>
                           </Col>
@@ -186,7 +186,6 @@ const ShoppingCards = () => {
                                         backgroundColor:' #303132',
                                         color:'white',
                                         textTransform:'capitalize',
-                                        marginLeft:'5%',
                                         marginTop:'2%'
 
                                     }}><FaShoppingBag style={{marginRight:'10%', width:'20', height:'20'}} /> chekout</Button>
