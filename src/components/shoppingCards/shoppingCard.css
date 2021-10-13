@@ -1,0 +1,122 @@
+.my-cart {
+  text-align: left;
+  text-transform: capitalize;
+  color: gray;
+  padding-top: 1.25%;
+  text-align: left;
+}
+.my-cart > p {
+  font-size: 25px;
+}
+.image > img {
+  border: 1px solid lightgray;
+}
+.text-heading {
+  text-transform: uppercase;
+  color: #303132;
+  text-align: left;
+  padding-bottom: 4%;
+}
+.text-prize {
+  text-align: left;
+  color: gray;
+}
+.text-color {
+  text-align: left;
+  color: gray;
+}
+.text-size {
+  text-align: left;
+  color: gray;
+}
+.counter {
+  border: 1px solid;
+  margin-top: 5%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 10%;
+}
+.counter-minus:hover {
+  color: gray;
+}
+.counter-number {
+  color: gray;
+}
+.counter-plus > :hover {
+  color: gray;
+}
+.price-card {
+  color: gray;
+}
+.close-icon {
+  text-align: left;
+}
+.close-icon:hover {
+  color: gray;
+}
+/* CARD WORK */
+.card-parent {
+  padding: 15px;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: gray;
+  border: solid none;
+}
+.card-head {
+  text-align: left;
+  text-transform: capitalize;
+}
+.card-body {
+  font-size: 17px;
+}
+.subtotal {
+  padding-top: 20%;
+  text-align: left;
+}
+.subtotal-prize {
+  padding-top: 20%;
+  text-align: right;
+}
+.shipping {
+  padding-top: 5%;
+}
+.free {
+  text-align: right;
+  padding-top: 5%;
+}
+.location {
+  padding-bottom: 15%;
+}
+.location > a {
+  color: gray;
+}
+.location > a:hover {
+  color: lightgray;
+}
+.card-foot {
+  font-size: 20px;
+  color: #535151;
+}
+.total {
+  margin-left: 5%;
+}
+.price {
+  text-align: right;
+}
+/* CARD WORK */
+/* margin-right: 10% */
+
+@media screen and (max-width: 600px) {
+  .counter {
+    height: 80%;
+    margin-top: 10%;
+  }
+  .price-card {
+    margin-top: 20%;
+  }
+  .close-icon {
+    margin-top: 25%;
+  }
+}

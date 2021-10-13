@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "../screen/home/home";
 import Shop from "../screen/shop/shop";
 import Login from "../screen/login/login";
-import Signup from "../screen/signUp/signup";
-import ProductDetail from "../screen/productsDetail/productdetail";
+import ShoppingCard from '../components/shoppingCards/shoppingCards'
+import Signup from "../screen/signUp/signup"
+import ProductDetail from "../screen/productsDetail/productdetail"
 
 export default function App() {
   return (
@@ -27,6 +28,9 @@ export default function App() {
           </Route>
           <Route exact path="/productdetail">
             <ProductDetail />
+          </Route>
+          <Route exact path="/shoppingcard">
+            <ShoppingCard/>
           </Route>
         </Switch>
       </div>

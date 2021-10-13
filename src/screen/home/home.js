@@ -6,14 +6,13 @@ import Footer from "../../components/footer/footer";
 import { useHistory } from "react-router-dom";
 
 export default function Home() {
-  // var history = useHistory();
+  var history = useHistory();
 
-  // const product = () => {
-  //   history.push("/productdetail");
-  // };
+  const product = () => {
+    history.push("/productdetail");
+  };
   return (
     <>
-      {/* /productdetail */}
       <FirstNavbar />
       <Row>
         <Col xs={12} sm={12} md={12} lg={12} xl={12}>
@@ -60,7 +59,7 @@ export default function Home() {
                 }
               />
               <button
-                // onClick={product}
+                onClick={product}
                 className="midi-Pleated-Button"
               >
                 MIDI PLEATED SKIRT

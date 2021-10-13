@@ -24,42 +24,36 @@
   margin-top: 90px;
 }
 .shopping-option {
-
   border: solid none;
   /* padding-top:3%; */
   border-bottom: 0.5px solid none;
   font-family: "DM-serif";
-
 }
-.shopping-option>h2{
+.shopping-option > h2 {
   padding: 15px;
   /* margin-right:60%; */
-  padding-bottom: 4%;
-  padding-top: 5rem;
+  padding-bottom: 6%;
+  padding-top: 5%;
   font-weight: bold;
   text-transform: capitalize;
   font-family: sans-serif;
   font-size: 35px;
-    
 }
 
-
 /* Cards AND SIDEBAR */
-.main-row{
-    display: flex;
-    border: solid none;
-    background-color: #fff;
-    margin-bottom: 5%;
-    
+.main-row {
+  display: flex;
+  border: solid none;
+  background-color: #fff;
+  margin-bottom: 5%;
 }
 
 /* Cards AND SIDEBAR */
 /* footer */
-.footer_row{
-    border:solid none;
-    padding-top: 30px;
-    border-top: solid 2px rgba(255, 187, 0, 0.959);
-    padding-bottom: 5%;
-
+.footer_row {
+  border: solid none;
+  padding-top: 30px;
+  border-top: solid 2px rgba(255, 187, 0, 0.959);
+  padding-bottom: 5%;
 }
 /* footer */

@@ -23,62 +23,69 @@ import Aircolors from "../../asset/images/air colors.jpg";
 const Shop = () => {
   const cardData = [
     {
-      image: 'https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png',
+      image:
+        "https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png",
       text: "smart watch apllo 68GB",
       prize: "$369.99",
     },
     {
-      image: 'https://static.wixstatic.com/media/cda177_b5a795ade21b41d38cadd836824e6768.jpg/v1/fill/w_299,h_410,al_c,q_80,usm_0.66_1.00_0.01/cda177_b5a795ade21b41d38cadd836824e6768.webp',
+      image:
+        "https://static.wixstatic.com/media/cda177_b5a795ade21b41d38cadd836824e6768.jpg/v1/fill/w_299,h_410,al_c,q_80,usm_0.66_1.00_0.01/cda177_b5a795ade21b41d38cadd836824e6768.webp",
       text: "Stainless Steel FS3",
       prize: "$268.88",
     },
     {
-      image: 'https://static.wixstatic.com/media/84770f_9a81715dcb4b43fa936d243fcd90e2a9.png/v1/fill/w_299,h_353,al_c,q_90,usm_0.66_1.00_0.01/84770f_9a81715dcb4b43fa936d243fcd90e2a9.webp',
+      image:
+        "https://static.wixstatic.com/media/84770f_9a81715dcb4b43fa936d243fcd90e2a9.png/v1/fill/w_299,h_353,al_c,q_90,usm_0.66_1.00_0.01/84770f_9a81715dcb4b43fa936d243fcd90e2a9.webp",
       text: "Luby Slice Convection 9",
       prize: "$290.00",
     },
     {
-      image: 'https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png',
+      image:
+        "https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png",
       text: "smart watch apllo 68GB",
       prize: "$369.99",
     },
     {
-      image: 'https://static.wixstatic.com/media/cda177_b5a795ade21b41d38cadd836824e6768.jpg/v1/fill/w_299,h_410,al_c,q_80,usm_0.66_1.00_0.01/cda177_b5a795ade21b41d38cadd836824e6768.webp',
+      image:
+        "https://static.wixstatic.com/media/cda177_b5a795ade21b41d38cadd836824e6768.jpg/v1/fill/w_299,h_410,al_c,q_80,usm_0.66_1.00_0.01/cda177_b5a795ade21b41d38cadd836824e6768.webp",
       text: "Stainless Steel FS3",
       prize: "$268.88",
     },
     {
-      image: 'https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png',
+      image:
+        "https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png",
       text: "smart watch apllo 68GB",
       prize: "$369.99",
     },
     {
-      image: 'https://static.wixstatic.com/media/cda177_b5a795ade21b41d38cadd836824e6768.jpg/v1/fill/w_299,h_410,al_c,q_80,usm_0.66_1.00_0.01/cda177_b5a795ade21b41d38cadd836824e6768.webp',
+      image:
+        "https://static.wixstatic.com/media/cda177_b5a795ade21b41d38cadd836824e6768.jpg/v1/fill/w_299,h_410,al_c,q_80,usm_0.66_1.00_0.01/cda177_b5a795ade21b41d38cadd836824e6768.webp",
       text: "Stainless Steel FS3",
       prize: "$268.88",
     },
     {
-      image: 'https://static.wixstatic.com/media/84770f_9a81715dcb4b43fa936d243fcd90e2a9.png/v1/fill/w_299,h_353,al_c,q_90,usm_0.66_1.00_0.01/84770f_9a81715dcb4b43fa936d243fcd90e2a9.webp',
+      image:
+        "https://static.wixstatic.com/media/84770f_9a81715dcb4b43fa936d243fcd90e2a9.png/v1/fill/w_299,h_353,al_c,q_90,usm_0.66_1.00_0.01/84770f_9a81715dcb4b43fa936d243fcd90e2a9.webp",
       text: "Luby Slice Convection 9",
       prize: "$290.00",
     },
     {
-      image: 'https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png',
+      image:
+        "https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png",
       text: "smart watch apllo 68GB",
       prize: "$369.99",
     },
     {
-      image: 'https://static.wixstatic.com/media/cda177_b5a795ade21b41d38cadd836824e6768.jpg/v1/fill/w_299,h_410,al_c,q_80,usm_0.66_1.00_0.01/cda177_b5a795ade21b41d38cadd836824e6768.webp',
+      image:
+        "https://static.wixstatic.com/media/cda177_b5a795ade21b41d38cadd836824e6768.jpg/v1/fill/w_299,h_410,al_c,q_80,usm_0.66_1.00_0.01/cda177_b5a795ade21b41d38cadd836824e6768.webp",
       text: "Stainless Steel FS3",
       prize: "$268.88",
-    }
-
-
+    },
   ];
   return (
     <>
-      <Navbar/>
-      
+      <Navbar />
 
       <Row className="main-row">
         <Row>
@@ -90,10 +97,18 @@ const Shop = () => {
         </Row>
         <SideBar />
         <Col>
-          <Row >
+          <Row>
             {cardData.map((item) => {
               return (
-                <Col xl={4} lg={4} md={4} sm={6} xs={12} className="col" style={{border:'solid none'}}>
+                <Col
+                  xl={4}
+                  lg={4}
+                  md={4}
+                  sm={6}
+                  xs={12}
+                  className="col"
+                  style={{ border: "solid none" }}
+                >
                   <Card
                     name={item.text}
                     imageUrl={item.image}
@@ -106,9 +121,8 @@ const Shop = () => {
         </Col>
       </Row>
 
-      
-        <Footer />
-    
+      <Footer />
+
       {/* <LastRow /> */}
     </>
   );

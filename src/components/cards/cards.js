@@ -13,18 +13,17 @@ export default function Cards(props) {
         md={12}
         sm={12}
         xs={12}
-        style={{ border: "solid none",  marginTop:'5%'}}
+        style={{ border: "solid none", marginTop: "5%" }}
       >
         <div {...props} className="card-main">
-        <div className='card-img'>
-          <img src={props.imageUrl}/>
+          <div className="card-img">
+            <img src={props.imageUrl} />
           </div>
-        <div className='card-text'>
-        <span>{props.name}</span>
-       <p>{props.price}</p>
-      </div>
-      </div>
-
+          <div className="card-text">
+            <span>{props.name}</span>
+            <p>{props.price}</p>
+          </div>
+        </div>
       </Col>
     </>
   );

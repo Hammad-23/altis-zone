@@ -4,7 +4,60 @@ a,
 button {
   font-family: sans-serif;
 }
-.home-Middi-Textpx{
-    font-size: 15px;
-    color: rgb(63, 63, 63);
+.home-TextDiv {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 100px;
+  width: 20%;
+  color: gray;
+  margin-left: 50px;
+  padding-left: 10px;
+}
+.home-Middi-Textpx {
+  font-size: 15px;
+  color: rgb(63, 63, 63);
+}
+.product-Imag-Div {
+  /* border: solid red; */
+  height: 900px;
+  width: 30%;
+}
+.product-Imag {
+  height: 480px;
+  width: 90%;
+}
+.im-A-Product-Text{
+  color: gray;
+}
+
+
+.midi-Pleated-Text-Div {
+  border: solid red;
+  height: 900px;
+  width: 20%;
+}
+.midi-Pleated-Text {
+  text-align: left;
+  font-size: 20px;
+}
+.number-Text{
+  color: gray;
+  text-align: left;
+  font-size: 20px;
+}
+.color-Text{
+  color: gray;
+  text-align: left;
+  font-size: 18px;
+}
+.select-Input{
+  width: 100%;
+  height: 40px;
+  border: solid 1px gray;
+  outline: none;
+}
+.option-Input{
+  width: 100%;
+  height: 40px;
 }
