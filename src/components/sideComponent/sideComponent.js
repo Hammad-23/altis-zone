@@ -9,7 +9,7 @@ export const SideComponent = () => {
   return (
     <>
     
-      <Col className="side_Col" xl={3} lg={4} md={4} sm={5} xm={4}>
+      <Col className="side_Col" xl={3} lg={3} md={4} sm={5} xm={4}>
         <Row style={{border:"solid none", fontFamily:'sans-serif'}}>
           <Col xl={12} lg={12} md={12}sm={12} xs={12} style={{border:"solid none"}}>
             

@@ -32,6 +32,7 @@ const Stock = () => {
                          </div>
                         </div>
                         
+                        
                     </Col>
                 </Row>
             </Container>

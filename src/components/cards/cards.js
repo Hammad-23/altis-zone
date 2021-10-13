@@ -16,6 +16,7 @@ export default function Cards(props) {
         xs={12}
         style={{ border: "solid none",  marginTop:'5%'}}
       >
+        
         <div {...props} className="card-main">
         <div className='card-img'>
           <img src={props.imageUrl}/>
@@ -23,6 +24,7 @@ export default function Cards(props) {
         <div className='card-text'>
         <span>{props.name}</span>
        <p>{props.price}</p>
+
       </div>
       </div>
 
