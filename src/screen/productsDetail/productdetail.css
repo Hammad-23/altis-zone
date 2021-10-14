@@ -4,7 +4,177 @@ a,
 button {
   font-family: sans-serif;
 }
-.home-Middi-Textpx{
-    font-size: 15px;
-    color: rgb(63, 63, 63);
+.home-TextDiv {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 100px;
+  color: gray;
+  margin-left: 50px;
+  padding-left: 10px;
+}
+.home-Middi-Textpx {
+  font-size: 15px;
+  color: rgb(63, 63, 63);
+}
+.product-Imag-Div {
+  /* border: solid red; */
+  /* height: 900px; */
+  /* width: 30%; */
+  /* border: solid; */
+}
+.product-Imag {
+  height: 480px;
+  width: 90%;
+}
+.im-A-Product-Text{
+  color: gray;
+}
+.mid-head{
+  text-align: left;
+  text-transform: capitalize;
+  /* border: solid; */
+  margin-left: 4%;
+}
+
+.mid-heading>span{
+  font-size: 30px;
+}
+.mid-text>span{
+  font-size: 13px;
+  color: gray;
+  padding-left: 1%;
+}
+
+.mid-body{
+  /* border: solid; */
+  text-align: left;
+  text-transform: capitalize;
+  margin-left: 2%;
+
+}
+.mid-number{
+  margin-top: 5%;
+  color: gray;
+  margin-left: 2%;
+}
+.mid-number>p{
+  font-size: 22px;
+}
+.mid-size{
+  font-size: 17px;
+  /* margin-left: 2%; */
+  /* margin-top: 2%; */
+  padding: 10px;
+}
+.mid-size>span{
+  color: gray;
+}
+.mid-quantity{
+  /* margin-left: 2%; */
+  padding: 10px;
+  color: gray;
+}
+.quantity{
+  border: solid;
+  display: flex;
+  border: solid 1px gray;
+  margin-bottom: 10%;
+
+}
+.quantity-number{
+  padding: 10px;
+  margin-left: 6%;
+  cursor: pointer;
+
+}
+
+.quantity-icon{
+  border: solid none;
+  margin-left: auto;
+  padding-right: 25%;
+  color: white;
+}
+.quantity-icon:hover{
+  color: black;
+  transition: all.5s;
+
+}
+/* .care-up{
+  margin-left: auto;
+} */
+.care-up:hover{
+  color: gray;
+  cursor: pointer;
+}
+.care-down:hover{
+  color: gray;
+  cursor: pointer;
+}
+.add-to-card{
+  border: solid 1px grey;
+  text-transform:capitalize ;
+  text-align: center;
+  padding: 10px;
+  margin-left: 2%;
+  font-size: 19px;
+  width: 78%;
+  cursor: pointer;
+}
+.add-to-card>span:hover{
+  color: gray;
+}
+.heart-icon{
+  border: 1px solid gray;
+  width: 15%;
+  margin-left: 3%;
+  /* margin-top: 8%; */
+  /* padding: 10px; */
+  cursor: pointer;
+}
+.heart:hover{
+  color: gray;
+}
+.mid-footer{
+  border: solid none;
+}
+.product-info{
+  margin-top: 8%;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left:3% ;
+  color: gray;
+}
+.return-and-refund{
+  color: gray;
+  text-align: left;
+  padding-top: 5%;
+  margin-left:3% ;
+  padding-bottom: 5%;
+  text-transform: uppercase;
+}
+.mid-links{
+  /* border: solid ; */
+  padding: 15px;
+  margin-bottom: 15%;
+}
+.links{
+  /* border: solid; */
+  margin-right: 5%;
+
+}
+.whats-aap{
+  color: green;
+}
+.face-book{
+  color: royalblue;
+  margin-left: 5%;
+}
+.twitter{
+  color: rgb(65, 174, 225);
+  margin-left: 5%;
+}
+.pin-test{
+  color: red;
+  margin-left: 5%;
 }

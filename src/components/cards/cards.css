@@ -22,16 +22,18 @@
   transition: all.4s;
 }
 .card-text{
+  /* border: solid; */
   text-align: left;
   padding-top: 3%;
   width: 95%;
+  padding-left: 6%;
+
   
 }
 .card-text>span{
   text-transform: uppercase;
   color: #535151; 
   padding: 1%;
-  padding-left: 7%;
   cursor: pointer;
 }
 .card-text>span:hover{
@@ -41,7 +43,7 @@
 .card-text>p{
   color: gray;
   padding: 1%;
-  padding-left: 8%;
+  /* padding-left: 8%; */
   cursor: pointer;
 
 }

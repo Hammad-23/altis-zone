@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "../screen/home/home";
 import Shop from "../screen/shop/shop";
 import Login from "../screen/login/login";
-import Signup from "../screen/signUp/signup";
-import ProductDetail from "../screen/productsDetail/productdetail";
 import ShoppingCard from '../components/shoppingCards/shoppingCards'
-import StockSkits from '../components//stocksKits/stock'
-import CustomerCare from "../components/customerCare/customer";
+import Signup from "../screen/signUp/signup"
+import ProductDetail from "../screen/productsDetail/productdetail"
+import CustomerCare from "../components/customerCare/customer"
+import Stockisktis from "../components/stocksKits/stock"
 
 export default function App() {
   return (
@@ -35,7 +35,7 @@ export default function App() {
             <ShoppingCard/>
           </Route>
           <Route exact path="/stockSkits">
-            <StockSkits/>
+            <Stockisktis/>
           </Route>
           <Route exact path="/customerCare">
             <CustomerCare/>
