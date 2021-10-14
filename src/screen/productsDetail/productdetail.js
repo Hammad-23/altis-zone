@@ -208,9 +208,9 @@ export default function ProductDetail(props) {
                   <div className='mid-links'>
                     <div class='links'>
                     <a href='https://web.whatsapp.com/'> <IoLogoWhatsapp className='whats-aap' size={20}/></a>
-                   <a href='https://www.facebook.com/'></a> <FaFacebookF size={17} className='face-book'/>
-                   <a href='https://twitter.com/'></a> <FaTwitter size={18} className='twitter'/>
-                    <a href='https://www.pinterest.com/'></a><FaPinterestP size={18} className='pin-test'/>
+                   <a href='https://www.facebook.com/'> <FaFacebookF size={17} className='face-book'/></a>
+                   <a href='https://twitter.com/'> <FaTwitter size={18} className='twitter'/></a>
+                    <a href='https://www.pinterest.com/'><FaPinterestP size={18} className='pin-test'/></a>
                     </div>
                   </div>
                   </Col>

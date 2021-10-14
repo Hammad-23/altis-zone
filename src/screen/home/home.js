@@ -3,15 +3,11 @@ import "./home.css";
 import { Col, Row, Container } from "react-bootstrap";
 import FirstNavbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
-import { useHistory } from "react-router-dom";
 
 
 export default function Home() {
-  var history = useHistory();
 
-  const product = () => {
-    history.push("/productdetail");
-  };
+  
   return (
     <>
       <FirstNavbar />
@@ -60,7 +56,6 @@ export default function Home() {
                 }
               />
               <button
-                onClick={product}
                 className="midi-Pleated-Button"
               >
                 MIDI PLEATED SKIRT
