@@ -27,7 +27,7 @@ export default function Home() {
         </Col>
       </Row>
 
-      <Row style={{ marginTop: "10px"}}>
+      <Row style={{ marginTop: "10px", border:'solid none'}}>
         <Col
           className="yaer-Round-Line-Col"
           xs={12}
@@ -44,7 +44,7 @@ export default function Home() {
         </Col>
       </Row>
 
-      <Row>
+      <Row style={{border:'solid none'}}>
         <Col xs={2} sm={2} md={12} lg={12} xl={12}>
           <div className="card-container">
             <div className="cardDiv">

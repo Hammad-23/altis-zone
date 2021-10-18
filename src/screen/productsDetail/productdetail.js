@@ -25,7 +25,7 @@ import { useLocation } from "react-router";
 export default function ProductDetail(props) {
   // const [increament, setIncreament]= useState()
  const location=useLocation();
- console.log(location.state.images[2].src);
+//  console.log(location.state.images[0].src);
   const [size, setSize] = React.useState('');
 
   const handleChange = (event) => {
@@ -52,7 +52,7 @@ export default function ProductDetail(props) {
             <div className="product-Imag-Div">
               <img
                 className="img-fluid product-Imag"
-                src={location.state.images[2].src}
+                src={location.state.images[0].src}
               />
             </div>
 

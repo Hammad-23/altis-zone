@@ -126,10 +126,14 @@
     display: block;
     width: 302px;
     margin-left: 10px;
+
   }
   .cardDiv {
     width: 300px;
     height: 374px;
+    border: solid none;
+    margin-left:6.5%;
+
   }
   .yaer-Round-Line-Div {
     margin-left: 0;
