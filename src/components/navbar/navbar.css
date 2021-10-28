@@ -10,8 +10,9 @@
   display: flex;
   align-items: center;
   border: solid none;
-  width: 30%;
-  height: 50px;
+  width: 15%;
+  
+  
 }
 .search-Input {
   width: 60%;
@@ -22,12 +23,12 @@
   border-left: none;
   border-right: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  /* color: #ced3d3; */
+  color: #535151;
   outline: none;
   cursor: pointer;
 }
-.search-Input:hover {
-  border-bottom: solid 1px white;
+.search-Input-Div:hover {
+  border-bottom: solid 1px black;
 }
 .login-Icon-Div {
   display: flex;

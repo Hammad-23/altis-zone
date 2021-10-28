@@ -3,10 +3,13 @@ import "./home.css";
 import { Col, Row, Container } from "react-bootstrap";
 import FirstNavbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
+import { useHistory } from "react-router-dom";
+
+
 
 
 export default function Home() {
-
+let history= useHistory()
   
   return (
     <>
@@ -16,7 +19,9 @@ export default function Home() {
           <div className="cover-Image">
             <div className="card-Div">
               <h1 className="fall-Winter-Text">FALL & WINTER</h1>
-              <button className="shop-Now-Button">Shop Now</button>
+              <button className="shop-Now-Button" onClick={()=>{
+                history.push('/shop')
+              }}>Shop Now</button>
             </div>
           </div>
         </Col>
@@ -45,8 +50,9 @@ export default function Home() {
       </Row>
 
       <Row style={{border:'solid none'}}>
-        <Col xs={2} sm={2} md={12} lg={12} xl={12}>
-          <div className="card-container">
+      <div className="card-content" >
+          
+ <Col xs={12} sm={12} md={6} lg={4} xl={3} style={{border:'solid green'}}>
             <div className="cardDiv">
               <img
                 className="card-Image"
@@ -61,6 +67,8 @@ export default function Home() {
                 MIDI PLEATED SKIRT
               </button>
             </div>
+            </Col>
+            <Col xs={12} sm={12} md={6} lg={4} xl={3} style={{border:'solid green'}}>
             <div className="cardDiv">
               <img
                 className="card-Image"
@@ -73,6 +81,8 @@ export default function Home() {
                 MIDI PLEATED SKIRT
               </button>
             </div>
+            </Col>
+            <Col xs={12} sm={12} md={6} lg={4} xl={3} style={{border:'solid green'}}>
             <div className="cardDiv">
               <img
                 className="card-Image"
@@ -85,8 +95,11 @@ export default function Home() {
                 MIDI PLEATED SKIRT
               </button>
             </div>
-          </div>
+            
         </Col>
+  
+        </div>
+        
       </Row>
       <Footer />
     </>

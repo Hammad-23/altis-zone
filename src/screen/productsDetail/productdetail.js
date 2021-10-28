@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./productdetail.css";
 import { Col, Row, Container } from "react-bootstrap";
 import Navbar from "../../components/navbar/navbar";
@@ -17,23 +17,52 @@ import {FaFacebookF} from 'react-icons/fa'
 import {FaTwitter} from 'react-icons/fa'
 import {FaPinterestP} from 'react-icons/fa'
 import { useLocation } from "react-router";
+import {connect} from 'react-redux'
+import { NavLink } from "react-router-dom";
+import { useHistory } from "react-router-dom";
+import {addToCard} from '../../Services/Actions/actions';
+import ProductDrawer from "../../components/drawer/drawer";
 
 
 
 
-
-export default function ProductDetail(props) {
-  // const [increament, setIncreament]= useState()
- const location=useLocation();
-//  console.log(location.state.images[0].src);
-  const [size, setSize] = React.useState('');
-
+function ProductDetail(props) {
+   let history=useHistory()
+  console.log('ProductDetails==>',props)
+  const [isOpen, setIsOpen] = React.useState(false)
+  const [size, setSize] = useState('');
+  console.log(size)
+  const location=useLocation();
+  let allSelectProducts={
+    productsImage:location.state.images[0].src,
+    productsName:location.state.name,
+    productsPrice:location.state.price,
+    productSize:size,
+  };
+  const addItems = () => {
+     props.addToCartHandler(allSelectProducts);
+  };
+  
   const handleChange = (event) => {
     setSize(event.target.value);
   };
   return (
     <>
       <Navbar />
+{/*       
+      {['left', 'right', 'top', 'bottom'].map((anchor) => (
+        <React.Fragment key={anchor}>
+          <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+          <Drawer
+            anchor={anchor}
+            open={state[anchor]}
+            onClose={toggleDrawer(anchor, false)}
+          >
+            {list(anchor)}
+          </Drawer>
+        </React.Fragment>
+      ))} */}
+    
       <Row style={{border:'solid none'}}>
         <Col xs={12} sm={12} md={12} lg={12} xl={12}>
           <div className="home-TextDiv">
@@ -107,12 +136,12 @@ export default function ProductDetail(props) {
           onChange={handleChange}
           label="Size"
         >
-          <MenuItem value="">
+          <MenuItem value=''>
             <em>None</em>
           </MenuItem>
-          <MenuItem value={10}>Small</MenuItem>
-          <MenuItem value={20}>Medium</MenuItem>
-          <MenuItem value={30}>Large</MenuItem>
+          <MenuItem value={'Small'}>Small</MenuItem>
+          <MenuItem value={'Medium'}>Medium</MenuItem>
+          <MenuItem value={'large'}>Large</MenuItem>
         </Select>
       </FormControl>
               </Col>
@@ -142,11 +171,22 @@ export default function ProductDetail(props) {
               </Row>
               <Row>
                 <Col xl={12} style={{display:'flex'}}>
-                <div className='add-to-card'>
-                  <span>add to cart</span>
+               
+            <div className='add-to-card'>
+            
+    <span onClick={addItems}><ProductDrawer/></span>
+
+                  
                   </div> 
+                  
                   <div className='heart-icon'>
-                  <VscHeart style={{marginLeft:'15%', marginTop:'15%'}} size={35} className='heart'/>
+                    <NavLink 
+                    className="navbar-item"
+                    to="/signup">
+                  <VscHeart style={{marginLeft:'15%', marginTop:'15%'}} size={35} className='heart'
+                 
+                  />
+                  </NavLink>
                 </div>
                   
                 </Col>
@@ -165,10 +205,8 @@ export default function ProductDetail(props) {
                                         marginTop:'4%',
                                         marginLeft:'1%',
                                         marginBottom:'2%'
-
                                         
-
-                                    }}>submit</Button>
+                                        }}>submit</Button>
                  </Col>
                </Row>
               </div>
@@ -222,3 +260,10 @@ export default function ProductDetail(props) {
     </>
   );
 }
+const mapDispachToProps = dispatch => ({
+  addToCartHandler: data => dispatch(addToCard(data))
+})
+const mapStateToProps = state => ({
+  ProductData:state
+})
+export default connect(mapStateToProps,mapDispachToProps)(ProductDetail)

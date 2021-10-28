@@ -8,6 +8,7 @@ import Signup from "../screen/signUp/signup"
 import ProductDetail from "../screen/productsDetail/productdetail"
 import CustomerCare from "../components/customerCare/customer"
 import Stockisktis from "../components/stocksKits/stock"
+import ProductsDrawer from "../components/drawer/drawer";
 
 export default function App() {
   return (
@@ -39,6 +40,9 @@ export default function App() {
           </Route>
           <Route exact path="/customerCare">
             <CustomerCare/>
+          </Route>
+          <Route exact path="/productDrawer">
+            <ProductsDrawer/>
           </Route>
         </Switch>
       </div>

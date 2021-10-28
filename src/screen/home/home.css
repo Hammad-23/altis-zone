@@ -24,6 +24,7 @@
 .shop-Now-Button:hover {
   background-color: white;
   color: black;
+  transition: all.4s;
 }
 .shop-Now-Button {
   height: 45px;
@@ -69,18 +70,15 @@
   margin-bottom: 30px;
 }
 
-.card-container {
+.card-content {
   display: flex;
-  border: solid none;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border: solid blue; 
 }
 .cardDiv {
   border: solid none;
   height: 400px;
   width: 300px;
+  margin: auto;
 }
 .card-Image {
   height: 300px;
@@ -117,6 +115,7 @@
     width: 271px;
     height: 105px;
     margin-top: 2rem;
+    margin: auto;
   }
   .shop-Now-Button {
     height: 42px;
@@ -125,14 +124,13 @@
   .card-container {
     display: block;
     width: 302px;
-    margin-left: 10px;
 
   }
   .cardDiv {
     width: 300px;
     height: 374px;
     border: solid none;
-    margin-left:6.5%;
+    /* margin: auto; */
 
   }
   .yaer-Round-Line-Div {

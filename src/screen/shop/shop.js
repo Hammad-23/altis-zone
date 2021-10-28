@@ -7,27 +7,27 @@ import SideBar from "../../components/sideComponent/sideComponent";
 import Footer from "../../components/footer/footer";
 import { useHistory } from "react-router-dom";
 import axios from 'axios';
-import FadeLoader from "react-spinners/FadeLoader";
-import { css } from "@emotion/react";
+import Stack from '@mui/material/Stack';
+import CircularProgress from '@mui/material/CircularProgress';
+// import FadeLoader from "react-spinners/FadeLoader";
+// import { css } from "@emotion/react";
 
 
-const override = css`
-  display: block;
-  margin: 0 auto;
-  border-color: red;
-`;
+// const override = css`
+//   display: block;
+//   margin: 0 auto;
+//   border-color: red;
+// `;
 
 const Shop = () => {
 
   let history= useHistory()
   const [product, setProduct]= useState([]);
-  console.log(product)
   let [loading, setLoading]= useState(true)
   
 
   const detailProduct=(data)=>{
     history.push({pathname:"/productdetail",state:data});
-
   }
 
   useEffect(()=>{
@@ -66,11 +66,14 @@ const Shop = () => {
         <SideBar />
         <Col>
           <Row>
-            {loading?<Col style={{paddingRight:'35%',marginTop:'5%'}}><FadeLoader  css={override} size={300} /></Col>
+            {loading?<Col style={{paddingRight:'35%',marginTop:'5%'}}><div >
+            <CircularProgress className='loadder' color="inherit"size={60} style={{color:'lightgray'}} />
+              </div>
+              </Col>
             : 
             (
               product.map((data) => {
-                // console.log(data)
+                
                 return (
                   
                   <Col
@@ -88,12 +91,6 @@ const Shop = () => {
             price={data.price}
             onClick={()=>detailProduct(data)}
           />
-                 
-                
-         
-                   
-                  
-                
                   </Col>
                 );
               })

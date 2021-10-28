@@ -49,6 +49,8 @@ export default function NavbarHome() {
               <Nav.Link
                 className="navBar-Home-Etc-Text"
                 eventKey={2}
+
+
                 href="/customerCare"
               >
                 Customer Sale

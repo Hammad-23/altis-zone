@@ -60,10 +60,7 @@
     cursor: pointer;
 
 }
-.name-input>input:hover{
-    background-color: lightgray;
-    transition: all.4s;
-}
+
 .email-input{
     padding-bottom: 2%;
 
@@ -73,10 +70,7 @@
     cursor: pointer;
 
 }
-.email-input>input:hover{
-    background-color: lightgray;
-    transition: all.4s;
-}
+
 .subject-input{
     padding-bottom: 2%;
 
@@ -86,10 +80,7 @@
     cursor: pointer;
 
 }
-.subject-input>input:hover{
-    background-color: lightgray;
-    transition: all.4s;
-}
+
 .message-input{
     padding-bottom: 2%;
 
@@ -100,10 +91,7 @@
     cursor: pointer;
 
 }
-.message-input>textarea:hover{
-    background-color: lightgray;
-    transition: all.4s;
-}
+
 @media screen  and (max-width:1024px){
     .contact-col{
         margin: auto;

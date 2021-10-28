@@ -53,6 +53,15 @@ button {
   margin-left: 2%;
 
 }
+.navbar-item{
+  text-decoration: none ;
+  color: black;
+
+}
+.navbar-item:hover{
+  color: gray;
+  transition: all.4s;
+}
 .mid-number{
   margin-top: 5%;
   color: gray;

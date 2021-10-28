@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../shoppingCards/shoppingCard.css";
 import Navbar from "../navbar/navbar";
 import { Col, Row, Container } from "react-bootstrap";
@@ -9,8 +9,17 @@ import { AiOutlineMinus } from "react-icons/ai";
 import { AiOutlinePlus } from "react-icons/ai";
 import { IoCloseOutline } from "react-icons/io5";
 import Footer from "../footer/footer";
+import {connect} from 'react-redux'
+import {addToCard} from '../../Services/Actions/actions'
+import {useLocation} from 'react-router-dom'
 
-const ShoppingCards = () => {
+function ShoppingCards (props) {
+  // console.log('ShoppingCards====>',props)
+  const location=useLocation()
+  const [shoppingProducts, setShoppingProducts]= useState([])
+  setShoppingProducts(props)
+  console.log(shoppingProducts)
+
   const shoppingData = [
     {
       image:
@@ -27,58 +36,6 @@ const ShoppingCards = () => {
       price: "$8765.765",
       color: "blue",
       size: "medium",
-    },
-    ,
-    {
-      image:
-        "https://static.wixstatic.com/media/84770f_9a81715dcb4b43fa936d243fcd90e2a9.png/v1/fill/w_299,h_353,al_c,q_90,usm_0.66_1.00_0.01/84770f_9a81715dcb4b43fa936d243fcd90e2a9.webp",
-      name: "MIDI PLEATED SKIRT",
-      price: "$96723.7568",
-      color: "green",
-      size: "small",
-    },
-    ,
-    {
-      image:
-        "https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png",
-      name: "MIDI PLEATED SKIRT",
-      price: "$8677",
-      color: "green",
-      size: "regular",
-    },
-    {
-      image:
-        "https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png",
-      name: "MIDI PLEATED SKIRT",
-      price: "$7656.565",
-      color: "green",
-      size: "large",
-    },
-    {
-      image:
-        "https://static.wixstatic.com/media/cda177_b5a795ade21b41d38cadd836824e6768.jpg/v1/fill/w_299,h_410,al_c,q_80,usm_0.66_1.00_0.01/cda177_b5a795ade21b41d38cadd836824e6768.webp",
-      name: "MIDI PLEATED SKIRT",
-      price: "$8765.765",
-      color: "blue",
-      size: "medium",
-    },
-    ,
-    {
-      image:
-        "https://static.wixstatic.com/media/84770f_9a81715dcb4b43fa936d243fcd90e2a9.png/v1/fill/w_299,h_353,al_c,q_90,usm_0.66_1.00_0.01/84770f_9a81715dcb4b43fa936d243fcd90e2a9.webp",
-      name: "MIDI PLEATED SKIRT",
-      price: "$96723.7568",
-      color: "green",
-      size: "small",
-    },
-    ,
-    {
-      image:
-        "https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png",
-      name: "MIDI PLEATED SKIRT",
-      price: "$8677",
-      color: "green",
-      size: "regular",
     },
   ];
   // const img='https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png'
@@ -146,9 +103,6 @@ const ShoppingCards = () => {
                     <div className="text-prize">
                       <span>{item.price}</span>
                     </div>
-                    <div className="text-color">
-                      <span>{item.color}</span>
-                    </div>
                     <div className="text-size">
                       <span>{item.size}</span>
                     </div>
@@ -190,7 +144,7 @@ const ShoppingCards = () => {
 
                   <Col xl={1} lg={5} xs={3} style={{ border: "solid none" }}>
                     <div className="close-icon">
-                      {" "}
+                      
                       <IoCloseOutline style={{ width: "25", height: "25" }} />
                     </div>
                   </Col>
@@ -293,7 +247,8 @@ const ShoppingCards = () => {
                             width: "20",
                             height: "20",
                           }}
-                        />{" "}
+                          // onClick={}
+                        />
                         chekout
                       </Button>
                     </Col>
@@ -309,4 +264,11 @@ const ShoppingCards = () => {
   );
 };
 
-export default ShoppingCards;
+// const mapDispachToProps = dispatch => ({
+//   // addToCartHandler: data => dispatch(addToCard(data))
+
+// })
+// const mapStateToProps = (state) => ({
+//   ShoppingCardData:state
+// })
+export default (ShoppingCards)
