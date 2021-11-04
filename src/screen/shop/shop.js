@@ -23,6 +23,7 @@ const Shop = () => {
 
   let history= useHistory()
   const [product, setProduct]= useState([]);
+  console.log(product)
   let [loading, setLoading]= useState(true)
   
 
@@ -40,7 +41,6 @@ const Shop = () => {
        })
        for(let i=1; i<=items.length; i++){
          setProduct(items)
-
        }
        }).catch((error)=>{
          console.log("products error--> ",error.message);

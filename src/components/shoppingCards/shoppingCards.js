@@ -16,9 +16,9 @@ import {useLocation} from 'react-router-dom'
 function ShoppingCards (props) {
   // console.log('ShoppingCards====>',props)
   const location=useLocation()
-  const [shoppingProducts, setShoppingProducts]= useState([])
-  setShoppingProducts(props)
-  console.log(shoppingProducts)
+  // const [shoppingProducts, setShoppingProducts]= useState([])
+  // setShoppingProducts(props)
+  // console.log(shoppingProducts)
 
   const shoppingData = [
     {
@@ -117,14 +117,14 @@ function ShoppingCards (props) {
                   >
                     <div className="counter">
                       <div className="counter-minus">
-                        {" "}
+                        
                         <AiOutlineMinus />
                       </div>
                       <div className="counter-number">
                         <span>123</span>
                       </div>
                       <div className="counter-plus">
-                        {" "}
+                        
                         <AiOutlinePlus />
                       </div>
                     </div>
