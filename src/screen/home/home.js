@@ -1,29 +1,28 @@
 import React from "react";
 import "./home.css";
-import { Col, Row, Container } from "react-bootstrap";
 import FirstNavbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
+import { Col, Row, Container } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
 
-
-
-
 export default function Home() {
-let history= useHistory()
-  
+  let history = useHistory();
   return (
     <>
       <FirstNavbar />
       <Row>
-        <Col xs={12} sm={12} md={12} lg={12} xl={12}>
-          <div className="cover-Image">
+        <Col className="cover-Image" xs={12} sm={12} md={12} lg={12} xl={12}>
             <div className="card-Div">
               <h1 className="fall-Winter-Text">FALL & WINTER</h1>
-              <button className="shop-Now-Button" onClick={()=>{
-                history.push('/shop')
-              }}>Shop Now</button>
+              <button
+                className="shop-Now-Button"
+                onClick={() => {
+                  history.push("/shop");
+                }}
+              >
+                Shop Now
+              </button>
             </div>
-          </div>
         </Col>
       </Row>
       <Row style={{ backgroundColor: "#d3d3d3", marginBottom: "30px" }}>
@@ -32,7 +31,7 @@ let history= useHistory()
         </Col>
       </Row>
 
-      <Row style={{ marginTop: "10px", border:'solid none'}}>
+      <Row style={{ marginTop: "10px", border: "solid none" }}>
         <Col
           className="yaer-Round-Line-Col"
           xs={12}
@@ -48,11 +47,9 @@ let history= useHistory()
           </div>
         </Col>
       </Row>
-
-      <Row style={{border:'solid none'}}>
-      <div className="card-content" >
-          
- <Col xs={12} sm={12} md={6} lg={4} xl={3} style={{border:'solid green'}}>
+      <Container>
+        <Row>
+          <Col xs={12} sm={12} md={12} lg={4} xl={4}>
             <div className="cardDiv">
               <img
                 className="card-Image"
@@ -61,14 +58,12 @@ let history= useHistory()
                     "https://static.wixstatic.com/media/cda177_f95b14c95d6446de847782f0b6fd0027.png/v1/fill/w_230,h_230,al_c,usm_0.66_1.00_0.01/cda177_f95b14c95d6446de847782f0b6fd0027.png")
                 }
               />
-              <button
-                className="midi-Pleated-Button"
-              >
+              <button className="midi-Pleated-Button">
                 MIDI PLEATED SKIRT
               </button>
             </div>
-            </Col>
-            <Col xs={12} sm={12} md={6} lg={4} xl={3} style={{border:'solid green'}}>
+          </Col>
+          <Col xs={12} sm={12} md={6} lg={4} xl={4}>
             <div className="cardDiv">
               <img
                 className="card-Image"
@@ -81,8 +76,8 @@ let history= useHistory()
                 MIDI PLEATED SKIRT
               </button>
             </div>
-            </Col>
-            <Col xs={12} sm={12} md={6} lg={4} xl={3} style={{border:'solid green'}}>
+          </Col>
+          <Col xs={12} sm={12} md={6} lg={4} xl={4}>
             <div className="cardDiv">
               <img
                 className="card-Image"
@@ -95,12 +90,9 @@ let history= useHistory()
                 MIDI PLEATED SKIRT
               </button>
             </div>
-            
-        </Col>
-  
-        </div>
-        
-      </Row>
+          </Col>
+        </Row>
+      </Container>
       <Footer />
     </>
   );

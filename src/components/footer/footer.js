@@ -7,7 +7,6 @@ import { FaFacebookF, FaPinterestP, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      {/* <Container> */}
       <Row className="footer-Firt-Row">
         <Col xs={12} sm={12} md={12} lg={3} xl={3}>
           <p className="stay-Connected-Text">STAY CONNECTED</p>
@@ -18,7 +17,6 @@ const Footer = () => {
             <FaInstagram color={"white"} cursor={"pointer"} size={20} />
           </div>
         </Col>
-
         <Col xs={12} sm={12} md={12} lg={6} xl={6}>
           <p className="be-Our-Friend-Text">BE OUR FRIEND</p>
           <input
@@ -36,14 +34,12 @@ const Footer = () => {
             </a>
           </p>
         </Col>
-
         <Col xs={12} sm={12} md={12} lg={3} xl={3}>
           <p className="need-Assistance-Text">NEED ASSISTANCE?</p>
           <p className="number-Text">123-456-7890</p>
           <lable className="number-Text">qureshiaq2003@gmail.com</lable>
         </Col>
       </Row>
-      {/* </Container> */}
     </>
   );
 };

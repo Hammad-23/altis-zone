@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import "./productdetail.css";
 import { Col, Row, Container } from "react-bootstrap";
@@ -22,9 +23,6 @@ import { NavLink } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 import {addToCard} from '../../Services/Actions/actions';
 import ProductDrawer from "../../components/drawer/drawer";
-
-
-
 
 function ProductDetail(props) {
    let history=useHistory()

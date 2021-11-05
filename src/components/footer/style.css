@@ -19,7 +19,6 @@
   border: solid none;
   margin-left: 81px;
 }
-
 .be-Our-Friend-Text {
   font-family: "cursive";
   font-size: 18px;
@@ -86,7 +85,6 @@
     width: 78%;
   }
 }
-
 .need-Assistance-Text {
   font-family: "cursive";
   font-size: 18px;
@@ -103,4 +101,5 @@
   color: #ced3d3;
   font-family: "cursive";
   letter-spacing: normal;
+  cursor: pointer;
 }
