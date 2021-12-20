@@ -10,8 +10,16 @@ import {
   Button,
 } from "react-bootstrap";
 import "./navbar-Home.css";
+import { useHistory } from "react-router-dom";
 
 export default function NavbarHome() {
+ // let history = useHistory();
+  // const login = () => {
+  //   history.push("/")
+  // }
+  // const shop = () => {
+  //   history.push=("/shop")
+  // }
   return (
     <>
       <Navbar

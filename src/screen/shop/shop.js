@@ -7,16 +7,7 @@ import SideBar from "../../components/sideComponent/sideComponent";
 import Footer from "../../components/footer/footer";
 import { useHistory } from "react-router-dom";
 import axios from "axios";
-import Stack from "@mui/material/Stack";
 import CircularProgress from "@mui/material/CircularProgress";
-// import FadeLoader from "react-spinners/FadeLoader";
-// import { css } from "@emotion/react";
-
-// const override = css`
-//   display: block;
-//   margin: 0 auto;
-//   border-color: red;
-// `;
 
 export default function Shop() {
   let history = useHistory();

@@ -1,15 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./productdetail.css";
 import { Col, Row, Container } from "react-bootstrap";
-import Navbar from "../../components/navbar/navbar";
-import Footer from "../../components/footer/footer";
-import InputLabel from "@mui/material/InputLabel";
-import MenuItem from "@mui/material/MenuItem";
-import FormControl from "@mui/material/FormControl";
-import Select from "@mui/material/Select";
 import { FiChevronUp } from "react-icons/fi";
 import { FiChevronDown } from "react-icons/fi";
-import Button from "@mui/material/Button";
 import { VscHeart } from "react-icons/vsc";
 import { AiOutlinePlus } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -21,6 +14,13 @@ import { connect } from "react-redux";
 import { NavLink } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 import { addToCard } from "../../Services/Actions/actions";
+import Navbar from "../../components/navbar/navbar";
+import Footer from "../../components/footer/footer";
+import InputLabel from "@mui/material/InputLabel";
+import MenuItem from "@mui/material/MenuItem";
+import FormControl from "@mui/material/FormControl";
+import Select from "@mui/material/Select";
+import Button from "@mui/material/Button";
 import ProductDrawer from "../../components/drawer/drawer";
 
 function ProductDetail(props) {

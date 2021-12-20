@@ -17,6 +17,7 @@
     "axios": "^0.22.0",
     "bootstrap": "^5.1.0",
     "firebase": "^8.10.0",
+    "firebase-tools": "^9.23.3",
     "mdb-react-ui-kit": "^1.5.0",
     "mdbreact": "^5.1.0",
     "react": "^17.0.2",
